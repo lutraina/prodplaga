@@ -1,0 +1,4 @@
+[21-Dec-2013 09:35:46] PHP Fatal error:  Interface 'ConfigReaderInterface' not found in /home/nocam569/public_html/lib/Cake/Configure/PhpReader.php on line 28
+[21-Dec-2013 09:36:08] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Configure/IniReader.php on line 19
+[21-Dec-2013 20:12:15] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Configure/IniReader.php on line 19
+[21-Dec-2013 20:12:50] PHP Fatal error:  Interface 'ConfigReaderInterface' not found in /home/nocam569/public_html/lib/Cake/Configure/PhpReader.php on line 28

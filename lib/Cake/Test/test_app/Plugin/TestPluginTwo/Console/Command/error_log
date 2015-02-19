@@ -1,0 +1,4 @@
+[21-Dec-2013 13:41:06] PHP Fatal error:  Class 'Shell' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPluginTwo/Console/Command/ExampleShell.php on line 19
+[21-Dec-2013 14:24:08] PHP Fatal error:  Class 'Shell' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPluginTwo/Console/Command/WelcomeShell.php on line 19
+[23-Dec-2013 07:11:47] PHP Fatal error:  Class 'Shell' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPluginTwo/Console/Command/WelcomeShell.php on line 19
+[23-Dec-2013 16:01:25] PHP Fatal error:  Class 'Shell' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPluginTwo/Console/Command/ExampleShell.php on line 19

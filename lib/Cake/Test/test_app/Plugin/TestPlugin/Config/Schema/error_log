@@ -1,0 +1,1 @@
+[21-Dec-2013 13:53:50] PHP Fatal error:  Class 'CakeSchema' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Config/Schema/schema.php on line 21

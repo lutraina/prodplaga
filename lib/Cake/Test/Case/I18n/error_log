@@ -1,0 +1,6 @@
+[21-Dec-2013 10:14:08] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/I18n/I18nTest.php on line 19
+[21-Dec-2013 10:14:18] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/I18n/L10nTest.php on line 19
+[21-Dec-2013 10:36:25] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/I18n/MultibyteTest.php on line 19
+[22-Dec-2013 00:48:13] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/I18n/L10nTest.php on line 19
+[22-Dec-2013 00:56:05] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/I18n/I18nTest.php on line 19
+[22-Dec-2013 02:21:11] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/I18n/MultibyteTest.php on line 19

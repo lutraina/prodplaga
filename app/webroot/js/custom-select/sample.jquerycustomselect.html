@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.customselect.js"></script>
+	<link rel="stylesheet" href="jquery.customselect.css" />
+</head>
+<body>
+	<fieldset>
+		<legend>Iniciar CustomSelect</legend>
+			<p><code><pre>&lt;input type="hidden" id="item1" class="customselect" data-overload="5|verde,1|amarelo,2|verde,3|vermelho,4|azul" data-label="Selecione uma cor" value="" /&gt;</pre></code></p>
+			<p><code><pre>$('#item1').customselect();</pre></code></p>
+			<input type="hidden" id="item1" class="customselect" data-overload="5|verde,1|amarelo,2|verde,3|vermelho,4|azul" data-label="Selecione uma cor" value="" />
+	</fieldset>
+	
+	<fieldset>
+		<legend>Iniciar CustomSelect com Callback no onChange</legend>
+			<p><code><pre>$('#item2').customselect({onChange: function(){ console.log(['onChange']); }});</pre></code></p>
+			<input type="hidden" id="item2" class="customselect" data-overload="5|verde,1|amarelo,2|verde,3|vermelho,4|azul" data-label="Selecione uma cor" value="" />
+	</fieldset>
+	
+	<fieldset>
+		<legend>Iniciar CustomSelect read-only</legend>
+			<p><code><pre>&lt;input type="hidden" id="item3" class="customselect" data-readonly="true" data-overload="" data-label="" value="" /&gt;</pre></code></p>
+			<p><code><pre>$('#item3').customselect();</pre></code></p>
+			<input type="hidden" id="item3" class="customselect" data-overload="0|Novo item realmente grande pra testar oque acontece quando o label é muito grande,1|Usado" data-readonly="true" data-label="" value="" />
+	</fieldset>
+	
+	<fieldset>
+		<legend>Iniciar CustomSelect com ordenação DESC</legend>
+			<p><code><pre>&lt;input type="hidden" id="item3" class="customselect" data-ordination="desc" data-overload="" data-label="" value="" /&gt;</pre></code></p>
+			<p><code><pre>$('#item3').customselect();</pre></code></p>
+			<input type="hidden" id="item4" class="customselect" data-overload="5|verde,1|amarelo,2|verde,3|vermelho,4|azul" data-ordination="desc" data-label="" value="" />
+	</fieldset>
+	
+	<fieldset>
+		<legend>Limite de Linhas Exibidas ( Com base na altura da primeira linha )</legend>
+			<p><code><pre>&lt;input type="hidden" id="item5" class="customselect" data-limit="3" data-overload="5|verde,1|amarelo,2|verde,3|vermelho,4|azul,6|verde,7|amarelo,8|verde,9|vermelho,10|azul" /&gt;</pre></code></p>
+			<p><code><pre>$('#item5').customselect();</pre></code></p>
+			<input type="hidden" id="item5" class="customselect"  data-limit="3" data-overload="5|verde,1|amarelo,2|verde,3|vermelho,4|azul,6|verde,7|amarelo,8|verde,9|vermelho,10|azul" />
+	</fieldset>
+
+	<fieldset>
+		<legend>Adicionar novo item</legend>
+			<p><code><pre>$('#item1').customselect('addNewItem', {id: '10', text: 'Novo Item'});</pre></code></p>
+		<input type="text" id="txt_teste" />
+		<button type="button" id="bt_teste">Adicionar</button>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Atualizar lista com base no atributo data-overload</legend>
+			<p><code><pre>$('#item1').customselect('refresh');</pre></code></p>
+			<button type="button" id="bt_teste_refresh">Atualizar</button>
+	</fieldset>
+</body>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#item1').customselect();
+		$('#item2').customselect({onChange: function(){ alert('onChange'); }});
+		$('#item3').customselect();
+		$('#item4').customselect();
+		$('#item5').customselect();
+		
+		$('#bt_teste_refresh').click(function(){
+			$('#item1').customselect('refresh');
+		});
+		
+		$('#bt_teste').click(function(){
+			var txt = $('#txt_teste')[0].value;
+			$('#item1').customselect('addNewItem', {id: '10', text: txt});
+			return false;
+		});
+	});
+</script>
+</html>

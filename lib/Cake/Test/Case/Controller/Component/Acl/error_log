@@ -1,0 +1,6 @@
+[21-Dec-2013 14:49:35] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/Acl/DbAclTest.php on line 20
+[21-Dec-2013 14:58:24] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/Acl/PhpAclTest.php on line 20
+[21-Dec-2013 15:04:45] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/Acl/IniAclTest.php on line 19
+[23-Dec-2013 22:34:42] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/Acl/DbAclTest.php on line 20
+[24-Dec-2013 03:51:26] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/Acl/PhpAclTest.php on line 20
+[24-Dec-2013 05:50:32] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/Acl/IniAclTest.php on line 19

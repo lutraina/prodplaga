@@ -1,0 +1,3 @@
+[21-Dec-2013 13:40:44] PHP Fatal error:  Class 'AppHelper' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/View/Helper/TestPluginAppHelper.php on line 2
+[21-Dec-2013 13:52:23] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/View/Helper/OtherHelperHelper.php on line 19
+[21-Dec-2013 13:54:33] PHP Fatal error:  Class 'AppHelper' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/View/Helper/PluggedHelperHelper.php on line 19

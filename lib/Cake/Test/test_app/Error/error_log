@@ -1,0 +1,2 @@
+[21-Dec-2013 07:38:34] PHP Fatal error:  Class 'ExceptionRenderer' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Error/TestAppsExceptionRenderer.php on line 3
+[21-Dec-2013 09:25:05] PHP Fatal error:  Class 'ExceptionRenderer' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Error/TestAppsExceptionRenderer.php on line 3

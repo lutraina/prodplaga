@@ -1,0 +1,2 @@
+[21-Dec-2013 13:36:37] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Lib/Error/TestPluginExceptionRenderer.php on line 23
+[23-Dec-2013 05:34:12] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Lib/Error/TestPluginExceptionRenderer.php on line 23

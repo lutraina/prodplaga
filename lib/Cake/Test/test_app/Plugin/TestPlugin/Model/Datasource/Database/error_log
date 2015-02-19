@@ -1,0 +1,4 @@
+[21-Dec-2013 14:40:43] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource/Database/DboDummy.php on line 2
+[21-Dec-2013 14:57:39] PHP Fatal error:  Class 'TestSource' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource/Database/TestDriver.php on line 2
+[24-Dec-2013 01:52:52] PHP Fatal error:  Class 'TestSource' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource/Database/TestDriver.php on line 2
+[24-Dec-2013 09:43:23] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource/Database/DboDummy.php on line 2

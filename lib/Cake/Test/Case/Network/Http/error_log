@@ -1,0 +1,8 @@
+[21-Dec-2013 15:14:44] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Http/HttpSocketTest.php on line 20
+[21-Dec-2013 15:15:04] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Http/HttpResponseTest.php on line 20
+[21-Dec-2013 15:15:42] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Http/DigestAuthenticationTest.php on line 20
+[21-Dec-2013 15:16:26] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Http/BasicAuthenticationTest.php on line 20
+[23-Dec-2013 05:05:34] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Http/HttpSocketTest.php on line 20
+[23-Dec-2013 08:44:39] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Http/HttpResponseTest.php on line 20
+[23-Dec-2013 18:07:01] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Http/DigestAuthenticationTest.php on line 20
+[23-Dec-2013 18:34:46] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Http/BasicAuthenticationTest.php on line 20

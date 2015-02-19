@@ -1,0 +1,6 @@
+[21-Dec-2013 14:32:49] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Acl/IniAcl.php on line 15
+[21-Dec-2013 14:49:12] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Acl/DbAcl.php on line 15
+[21-Dec-2013 14:56:21] PHP Fatal error:  Class 'Object' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Acl/PhpAcl.php on line 26
+[24-Dec-2013 03:06:31] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Acl/IniAcl.php on line 15
+[24-Dec-2013 05:13:04] PHP Fatal error:  Class 'Object' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Acl/PhpAcl.php on line 26
+[24-Dec-2013 08:51:01] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Acl/DbAcl.php on line 15

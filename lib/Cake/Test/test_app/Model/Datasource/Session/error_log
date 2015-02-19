@@ -1,0 +1,2 @@
+[21-Dec-2013 11:34:08] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/Datasource/Session/TestAppLibSession.php on line 7
+[22-Dec-2013 03:56:58] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/Datasource/Session/TestAppLibSession.php on line 7

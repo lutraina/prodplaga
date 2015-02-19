@@ -1,0 +1,16 @@
+[21-Dec-2013 10:13:47] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/ViewTest.php on line 20
+[21-Dec-2013 10:15:09] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/HelperTest.php on line 20
+[21-Dec-2013 10:34:49] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/ScaffoldViewTest.php on line 19
+[21-Dec-2013 10:39:31] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/XmlViewTest.php on line 20
+[21-Dec-2013 10:55:43] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/ThemeViewTest.php on line 19
+[21-Dec-2013 11:10:12] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/MediaViewTest.php on line 20
+[21-Dec-2013 11:25:10] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/JsonViewTest.php on line 20
+[21-Dec-2013 11:46:06] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/HelperCollectionTest.php on line 20
+[21-Dec-2013 23:00:01] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/MediaViewTest.php on line 20
+[21-Dec-2013 23:10:15] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/HelperCollectionTest.php on line 20
+[21-Dec-2013 23:25:01] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/HelperTest.php on line 20
+[21-Dec-2013 23:48:44] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/JsonViewTest.php on line 20
+[21-Dec-2013 23:52:19] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/ThemeViewTest.php on line 19
+[22-Dec-2013 02:09:19] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/ViewTest.php on line 20
+[22-Dec-2013 02:25:32] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/ScaffoldViewTest.php on line 19
+[22-Dec-2013 03:41:27] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/View/XmlViewTest.php on line 20

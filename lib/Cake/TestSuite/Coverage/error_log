@@ -1,0 +1,4 @@
+[21-Dec-2013 13:21:00] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/TestSuite/Coverage/HtmlCoverageReport.php on line 20
+[21-Dec-2013 13:21:29] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/TestSuite/Coverage/TextCoverageReport.php on line 20
+[23-Dec-2013 00:53:19] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/TestSuite/Coverage/HtmlCoverageReport.php on line 20
+[23-Dec-2013 01:10:54] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/TestSuite/Coverage/TextCoverageReport.php on line 20

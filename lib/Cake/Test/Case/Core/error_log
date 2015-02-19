@@ -1,0 +1,8 @@
+[21-Dec-2013 10:13:28] PHP Fatal error:  Class 'CakeTestCase' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Core/AppTest.php on line 25
+[21-Dec-2013 10:14:58] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Core/ObjectTest.php on line 20
+[21-Dec-2013 11:05:40] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Core/CakePluginTest.php on line 20
+[21-Dec-2013 11:09:28] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Core/ConfigureTest.php on line 21
+[21-Dec-2013 23:03:59] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Core/CakePluginTest.php on line 20
+[22-Dec-2013 03:02:12] PHP Fatal error:  Class 'CakeTestCase' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Core/AppTest.php on line 25
+[22-Dec-2013 03:21:41] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Core/ObjectTest.php on line 20
+[22-Dec-2013 03:55:07] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Core/ConfigureTest.php on line 21

@@ -1,0 +1,42 @@
+[21-Dec-2013 07:55:40] PHP Warning:  require_once(CAKEbasics.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/nocam569/public_html/lib/Cake/Test/Case/BasicsTest.php on line 20
+[21-Dec-2013 07:55:40] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'CAKEbasics.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nocam569/public_html/lib/Cake/Test/Case/BasicsTest.php on line 20
+[21-Dec-2013 07:55:53] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllLogTest.php on line 27
+[21-Dec-2013 07:56:06] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllViewTest.php on line 27
+[21-Dec-2013 07:56:19] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllCoreTest.php on line 27
+[21-Dec-2013 07:56:32] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllI18nTest.php on line 27
+[21-Dec-2013 08:01:47] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllNetworkTest.php on line 27
+[21-Dec-2013 08:01:48] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllDatabaseTest.php on line 27
+[21-Dec-2013 08:02:49] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllEventTest.php on line 27
+[21-Dec-2013 08:03:03] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllTestsTest.php on line 26
+[21-Dec-2013 08:04:38] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllErrorTest.php on line 27
+[21-Dec-2013 08:04:52] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllCacheTest.php on line 27
+[21-Dec-2013 08:05:33] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllHelpersTest.php on line 27
+[21-Dec-2013 08:06:00] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllConsoleTest.php on line 27
+[21-Dec-2013 08:06:41] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllRoutingTest.php on line 27
+[21-Dec-2013 08:07:08] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllUtilityTest.php on line 27
+[21-Dec-2013 08:07:35] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllTestSuiteTest.php on line 27
+[21-Dec-2013 08:07:49] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllBehaviorsTest.php on line 26
+[21-Dec-2013 08:08:03] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllConfigureTest.php on line 27
+[21-Dec-2013 08:08:16] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllComponentsTest.php on line 27
+[21-Dec-2013 08:08:46] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllControllerTest.php on line 27
+[21-Dec-2013 13:48:12] PHP Warning:  require_once(CAKEbasics.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/nocam569/public_html/lib/Cake/Test/Case/BasicsTest.php on line 20
+[21-Dec-2013 13:48:12] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'CAKEbasics.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nocam569/public_html/lib/Cake/Test/Case/BasicsTest.php on line 20
+[21-Dec-2013 14:02:58] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllLogTest.php on line 27
+[21-Dec-2013 14:04:23] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllViewTest.php on line 27
+[21-Dec-2013 14:05:59] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllCoreTest.php on line 27
+[21-Dec-2013 14:10:08] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllTestsTest.php on line 26
+[21-Dec-2013 14:23:58] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllEventTest.php on line 27
+[21-Dec-2013 14:26:53] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllCacheTest.php on line 27
+[21-Dec-2013 14:30:38] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllErrorTest.php on line 27
+[21-Dec-2013 14:31:15] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllUtilityTest.php on line 27
+[21-Dec-2013 14:37:26] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllNetworkTest.php on line 27
+[21-Dec-2013 14:50:22] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllHelpersTest.php on line 27
+[21-Dec-2013 14:51:42] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllRoutingTest.php on line 27
+[21-Dec-2013 14:53:22] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllConsoleTest.php on line 27
+[21-Dec-2013 14:54:40] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllDatabaseTest.php on line 27
+[21-Dec-2013 15:00:45] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllBehaviorsTest.php on line 26
+[21-Dec-2013 15:00:57] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllConfigureTest.php on line 27
+[21-Dec-2013 15:11:35] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllTestSuiteTest.php on line 27
+[21-Dec-2013 15:12:31] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllControllerTest.php on line 27
+[21-Dec-2013 15:12:43] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllComponentsTest.php on line 27
+[21-Dec-2013 17:17:19] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/nocam569/public_html/lib/Cake/Test/Case/AllComponentsTest.php on line 27

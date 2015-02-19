@@ -1,0 +1,8 @@
+[21-Dec-2013 13:46:36] PHP Fatal error:  Class 'Object' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/OtherComponent.php on line 19
+[21-Dec-2013 13:46:47] PHP Fatal error:  Class 'Object' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/TestPluginOtherComponent.php on line 19
+[21-Dec-2013 13:51:07] PHP Fatal error:  Class 'Object' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/TestPluginComponent.php on line 19
+[21-Dec-2013 14:26:14] PHP Fatal error:  Class 'Component' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/PluginsComponent.php on line 19
+[23-Dec-2013 05:03:22] PHP Fatal error:  Class 'Component' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/PluginsComponent.php on line 19
+[23-Dec-2013 06:56:24] PHP Fatal error:  Class 'Object' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/TestPluginComponent.php on line 19
+[23-Dec-2013 08:45:24] PHP Fatal error:  Class 'Object' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/OtherComponent.php on line 19
+[23-Dec-2013 17:36:56] PHP Fatal error:  Class 'Object' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/TestPluginOtherComponent.php on line 19

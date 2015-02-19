@@ -1,0 +1,3 @@
+[21-Dec-2013 11:09:16] PHP Fatal error:  Class 'Configure' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Config/routes.php on line 2
+[21-Dec-2013 11:22:53] PHP Fatal error:  Class 'Configure' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Config/bootstrap.php on line 2
+[21-Dec-2013 11:25:48] PHP Fatal error:  Class 'Configure' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Config/custom_config.php on line 2

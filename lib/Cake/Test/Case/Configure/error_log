@@ -1,0 +1,4 @@
+[21-Dec-2013 10:35:42] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Configure/PhpReaderTest.php on line 19
+[21-Dec-2013 11:24:51] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Configure/IniReaderTest.php on line 19
+[21-Dec-2013 22:34:46] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Configure/PhpReaderTest.php on line 19
+[21-Dec-2013 23:37:30] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Configure/IniReaderTest.php on line 19

@@ -1,0 +1,403 @@
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container1 {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container1 a {
+	width:630px;
+	height:365px;
+	display:block;
+}
+
+.slides_container1 a img {
+	display:block;
+}
+
+
+.prev1, .next1{
+	color:#a6a6a6 !important;
+	font-size:14px;
+}
+
+/*
+	Slides container 3
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container3 {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container3 a {
+	width:470px;
+	height:130px;
+	overflow:hidden;
+	display:block;
+}
+
+.slides_container3 a img {
+	display:block;
+}
+
+.sub-box-prev-next{
+	margin-left:175px;
+}
+.prev3, .next3{
+	margin-left:10px;
+	float:left !important;
+	width:50px !important;
+	color:#a6a6a6 !important;
+	font-size:14px;
+	display:block !important;
+}
+.prev4, .next4{
+	color:#a6a6a6 !important;
+	font-size:14px;
+}
+.prev5, .next5{
+	color:#a6a6a6 !important;
+	font-size:14px;
+}
+
+
+
+
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container2 {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+.slides_container2 div.slide {
+	width:305px;
+	height:365px;
+	display:block;
+	margin-left:5px;
+}
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container2 a {
+	width:305px;
+	height:170px;
+	display:block;
+}
+
+.slides_container2 a img {
+	display:block;
+}
+
+
+.prev2, .next2{
+	color:#a6a6a6 !important;
+	font-size:14px;
+}
+
+
+
+
+
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width:470px;
+	height:287px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+	width:470px;
+	height:287px;
+}
+
+/*
+	Next/prev buttons
+*/
+/*
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:37px;
+	height:35px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+*/
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+	display:none;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+
+
+
+
+
+/*
+	Slides container 15
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container15 {
+	width:960px;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+.slides_container15 div.slide {
+	width:960px;
+	height:170px;
+	display:block;
+	margin-left:5px;
+}
+
+.slides_container15 .item{
+	float:left;
+	width:230px;
+	margin:0px 10px 0px 0px;
+}
+.prev15, .next15{
+	position:relative;
+	float:right;
+	margin-right:5px;
+	color:#a6a6a6 !important;
+	font-size:14px;
+}
+.prev15{
+	margin-right:5px;
+}
+
+
+/*
+	Slides container 19
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+.slides_container19{
+	float:left;
+	width:100%;
+}
+.slides_container19 a {
+	width:179px;
+	height:99px;
+	overflow:hidden;
+	display:block;
+	padding:0 !important;
+	
+}
+
+.slides_container19 a img {
+	display:block;
+	width:179px;
+	height:99px;,
+	padding:0 !important;
+}
+
+.prev19, .next19{
+	position:relative;
+	float:right;
+	margin-top:5px;
+	margin-right:5px;
+	color:#a6a6a6 !important;
+	font-size:14px;
+	padding:0 !important;
+}
+.prev19{
+	margin-right:5px;
+}
+/*estrutura padrao*/
+.slides_container19 .box-post-destaque{
+	position:absolute;
+	margin-top:-60px;
+	margin-left:10px;
+	width:100%;	
+}
+.slides_container19 .box-post-aberto{
+	position:absolute;
+	margin-top:-57px;
+	margin-left:10px;
+	width:100%;	
+}
+.slides_container19 .post-destaque-categoria{
+	float:left;
+	width:75%;
+	padding:10px;
+	font-size:12px;
+	font-weight:bold;
+	margin-right:5px;
+	color:#FFFFFF;
+}
+.slides_container19 .post-destaque-categoria span{
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+	color:#FFFFFF;
+}
+.slides_container19 post-destaque-categoria span a{
+	color:#FFFFFF;
+}
+.slides_container19 .post-destaque-categoria span a:hover{
+	text-decoration:underline;
+}
+.slides_container19 .icon-categoria-default{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria.png) left center no-repeat !important;
+}
+.slides_container19 .icon-destaque-categoria{
+	position:absolute;
+	margin-top:5px;
+	margin-left:10px;
+	z-index:999;
+	width:14px;
+	height:25px;
+}
+
+
+
+.slides_container19 .post-destaque-titulo{
+	float:left;
+	margin-top:2px;
+	float:left;
+	padding:10px;
+	font-size:14px;
+	color:#FFFFFF; 
+}
+.slides_container19 .post-destaque-titulo a{
+	color:#FFFFFF;
+}
+.slides_container19 .post-destaque-titulo a:hover{
+	text-decoration:underline;
+}
+
+
+.slides_container19 .titulo-categoria{
+	float:left;
+	font-size:14px;
+	margin-top:3px;
+	margin-left:10px;
+	font-weight:bold;
+}
+
+.slides_container19 .titulo-categoria:hover{
+	text-decoration:underline;
+}
+idth:100%;
+}

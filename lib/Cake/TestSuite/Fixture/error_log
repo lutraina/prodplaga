@@ -1,0 +1,6 @@
+[21-Dec-2013 12:56:41] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/TestSuite/Fixture/CakeTestModel.php on line 16
+[21-Dec-2013 13:02:43] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/TestSuite/Fixture/CakeTestFixture.php on line 16
+[21-Dec-2013 13:18:34] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php on line 20
+[22-Dec-2013 16:14:29] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/TestSuite/Fixture/CakeTestModel.php on line 16
+[22-Dec-2013 19:04:55] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/TestSuite/Fixture/CakeTestFixture.php on line 16
+[23-Dec-2013 00:48:48] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php on line 20

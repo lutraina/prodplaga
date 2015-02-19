@@ -1,0 +1,10 @@
+[21-Dec-2013 09:13:50] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Console/Shell.php on line 19
+[21-Dec-2013 09:45:04] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Console/HelpFormatter.php on line 17
+[21-Dec-2013 09:45:44] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Console/TaskCollection.php on line 18
+[21-Dec-2013 09:54:38] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Console/ConsoleErrorHandler.php on line 18
+[21-Dec-2013 09:55:30] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Console/ConsoleOptionParser.php on line 19
+[21-Dec-2013 19:18:16] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Console/Shell.php on line 19
+[21-Dec-2013 20:23:03] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Console/HelpFormatter.php on line 17
+[21-Dec-2013 20:33:14] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Console/TaskCollection.php on line 18
+[21-Dec-2013 21:03:49] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Console/ConsoleErrorHandler.php on line 18
+[21-Dec-2013 21:04:08] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Console/ConsoleOptionParser.php on line 19

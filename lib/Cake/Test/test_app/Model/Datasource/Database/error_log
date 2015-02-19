@@ -1,0 +1,2 @@
+[21-Dec-2013 10:30:56] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/Datasource/Database/TestLocalDriver.php on line 2
+[21-Dec-2013 22:45:59] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/Datasource/Database/TestLocalDriver.php on line 2

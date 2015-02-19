@@ -1,0 +1,16 @@
+[21-Dec-2013 14:28:36] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/DigestAuthenticate.php on line 16
+[21-Dec-2013 14:29:04] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/BaseAuthorize.php on line 15
+[21-Dec-2013 14:47:39] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/CrudAuthorize.php on line 16
+[21-Dec-2013 14:54:52] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/ActionsAuthorize.php on line 16
+[21-Dec-2013 14:57:17] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/BasicAuthenticate.php on line 16
+[21-Dec-2013 14:58:02] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php on line 15
+[21-Dec-2013 15:01:41] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/FormAuthenticate.php on line 16
+[21-Dec-2013 15:03:43] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php on line 16
+[23-Dec-2013 21:58:01] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/DigestAuthenticate.php on line 16
+[24-Dec-2013 00:25:21] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/CrudAuthorize.php on line 16
+[24-Dec-2013 02:26:56] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/BaseAuthorize.php on line 15
+[24-Dec-2013 03:29:41] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php on line 15
+[24-Dec-2013 05:31:45] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/ActionsAuthorize.php on line 16
+[24-Dec-2013 08:31:30] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php on line 16
+[24-Dec-2013 09:36:07] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/FormAuthenticate.php on line 16
+[24-Dec-2013 11:51:04] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Controller/Component/Auth/BasicAuthenticate.php on line 16

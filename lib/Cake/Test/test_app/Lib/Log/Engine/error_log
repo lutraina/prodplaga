@@ -1,0 +1,2 @@
+[21-Dec-2013 11:02:54] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Lib/Log/Engine/TestAppLog.php on line 20
+[22-Dec-2013 04:00:26] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Lib/Log/Engine/TestAppLog.php on line 20

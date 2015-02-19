@@ -1,0 +1,8 @@
+[21-Dec-2013 09:11:14] PHP Fatal error:  Class 'Router' not found in /home/nocam569/public_html/lib/Cake/Config/routes.php on line 48
+[21-Dec-2013 09:11:29] PHP Warning:  file(CAKEVERSION.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home/nocam569/public_html/lib/Cake/Config/config.php on line 19
+[21-Dec-2013 09:11:29] PHP Warning:  array_pop() [<a href='function.array-pop'>function.array-pop</a>]: The argument should be an array in /home/nocam569/public_html/lib/Cake/Config/config.php on line 20
+[21-Dec-2013 19:17:08] PHP Fatal error:  Class 'Router' not found in /home/nocam569/public_html/lib/Cake/Config/routes.php on line 48
+[21-Dec-2013 19:20:24] PHP Warning:  file(CAKEVERSION.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home/nocam569/public_html/lib/Cake/Config/config.php on line 19
+[21-Dec-2013 19:20:24] PHP Warning:  array_pop() [<a href='function.array-pop'>function.array-pop</a>]: The argument should be an array in /home/nocam569/public_html/lib/Cake/Config/config.php on line 20
+[24-Jan-2014 11:09:17] PHP Warning:  file(CAKEVERSION.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home/nocam569/public_html/lib/Cake/Config/config.php on line 19
+[24-Jan-2014 11:09:17] PHP Warning:  array_pop() [<a href='function.array-pop'>function.array-pop</a>]: The argument should be an array in /home/nocam569/public_html/lib/Cake/Config/config.php on line 20

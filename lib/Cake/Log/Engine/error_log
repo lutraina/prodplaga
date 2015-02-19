@@ -1,0 +1,6 @@
+[21-Dec-2013 11:48:29] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Log/Engine/BaseLog.php on line 20
+[21-Dec-2013 11:49:00] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Log/Engine/FileLog.php on line 20
+[21-Dec-2013 11:51:07] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Log/Engine/ConsoleLog.php on line 20
+[22-Dec-2013 04:18:52] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Log/Engine/FileLog.php on line 20
+[22-Dec-2013 04:23:40] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Log/Engine/BaseLog.php on line 20
+[22-Dec-2013 04:46:18] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Log/Engine/ConsoleLog.php on line 20

@@ -1,0 +1,1625 @@
+/*categorias===================================================================*/
+/*destaque*/
+.destaque.nav-principal-item{
+	border-top:9px solid #8cc540;
+}
+.destaque.nav-principal-item:hover{
+	background:#8cc540;
+}
+.destaque.nav-principal-item.current{
+	background:#8cc540;
+}
+.destaque.nav-mapa-site{
+	border-left:9px solid #8cc540;
+
+}
+.destaque.nav-mapa-site:hover{
+	background:#8cc540;
+}
+.destaque.nav-mapa-site{
+	border-left:9px solid #8cc540;
+
+}
+.destaque.nav-mapa-site:hover{
+	-webkit-transition: color .25s linear;
+	transition: color .25s linear;
+	transition: background-color .15s linear .1;
+}
+.destaque .post-destaque-categoria{
+	background:#b7ac00;
+	color:#FFFFFF;
+}
+.destaque .post-destaque-titulo{
+	background:#f89321;
+	color:#ffffff;
+}
+.destaque .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-destaque.png) no-repeat
+}
+.destaque .titulo-categoria{
+	color:#e4d600;
+	font-size:24px;
+}
+
+
+.destaque .bloco-9 .dia-ext1{
+	background:#8cc540;
+}
+.destaque .bloco-9 .dia-ext2{
+	background:#8cc540;
+
+}
+
+
+.destaque .alpha60 {background: rgb(183, 172, 0) !important;	background: rgba(183, 172, 0, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*diversao*/
+
+
+ .diversao .bloco-form{
+	border-radius:5px;
+	padding:10px;
+	background:#f79320;
+}
+.diversao .bloco-form button{
+	background:#f79320;
+	font-weight:700;
+	width:40%;
+	padding:10px;
+	border:none;
+	color:#ffffff;
+	font-size:14px;
+}  
+
+
+
+.diversao .nav-principal-item{
+	border-top:9px solid #f79320;
+}
+.diversao .nav-principal-item:hover{
+	background:#f79320;
+}
+.diversao .nav-principal-item.current{
+	background:#f79320;
+}
+
+.nav-principal li.diversao .sub-nav-principal{
+	
+	border-bottom:7px solid #f79320;
+}
+.nav-principal li.diversao:hover .reg{
+	background:#f79320;
+}
+.nav-principal li.diversao .sub-menu-top{
+	background:#f79320;
+}
+.nav-principal li.diversao .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+.diversao.nav-mapa-site{
+	border-left:9px solid #f79320;
+
+}
+.diversao.nav-mapa-site:hover{
+	background:#f79320;
+}
+
+
+.diversao .galerias .titulo-galerias{
+	color:#f79320;
+}
+.diversao .galerias .ui-tabs-active .titulo{
+	color:#f79320;
+}
+.diversao .galerias .ui-tabs-active .descricao{
+	color:#f79320;
+}
+.diversao .box-galerias .enviar-texto{
+	color:#f79320;
+}
+.diversao .box-galerias .button-black-top{
+	background:#2e2e2e;
+	font-weight:700;
+	border:none;
+	color:#f79320;
+	font-size:14px;
+}
+
+.diversao .box-galerias .button-black-top:hover{
+	background:#f79320;
+	color:#2e2e2e;
+}
+
+
+
+
+.diversao .bloco-5 .posts .texto1{
+	color:#f79320;
+}
+.diversao .bloco-5 .posts .texto2{
+	color:#f79320;
+}
+
+
+
+.diversao .post-destaque-categoria{
+	background:#f79320;
+	color:#ffffff;
+}
+.diversao .post-destaque-titulo{
+	background:#f79320;
+	color:#ffffff;
+}
+.diversao .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-diversao.png) no-repeat
+}
+.diversao .titulo-categoria{
+	color:#f79320;
+	font-size:24px;
+}
+
+
+
+/*diversao internas*/
+.diversao .box-categoria-interna{
+	background:#f79320;
+}
+.diversao .box-categoria-sub-titulo{
+	background:#bb6400;
+}
+.diversao .box-relacionados .title-box{
+	background:#ffad4e;
+}
+
+
+
+.diversao .box-post-mais-vistos span{
+	color:#f79320;
+}
+
+.diversao .categoria h2{
+	color:#f79320;
+}
+
+/*galerias*/
+.galerias.nav-principal-item{
+	border-top:9px solid #e4d600;
+
+}
+.galerias.nav-principal-item:hover{
+	background:#e4d600;
+}
+.galerias.nav-principal-item.current{
+	background:#e4d600;
+}
+.galerias.nav-mapa-site{
+	border-left:9px solid #e4d600;
+
+}
+.galerias.nav-mapa-site:hover{
+	background:#e4d600;
+}
+
+
+.galerias .post-destaque-categoria{
+	background: none repeat scroll 0 0 #ff6600;
+    color: #834600;
+    margin-top: 150px !important;
+    margin-left: -10px;
+    width: 350px;
+    padding: 10px;
+}
+/*titulo das galerias com as datas*/
+.galerias .post-destaque-titulo{
+	background:#b7ac00;
+	color:#ffffff;
+	display:none;
+}
+.galerias .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-galerias.png) no-repeat
+}
+.galerias .titulo-categoria{
+	color:#e4d600;
+	font-size:24px;
+}
+
+
+
+.galerias  .next5,.galerias .prev5 {
+	background:#ff9900; 	
+}
+
+.galerias .categoria h2{
+	color:#e4d600;
+}
+
+/*gastronomia*/
+.gastronomia .nav-principal-item{
+	border-top:9px solid #eb2026;
+}
+.gastronomia .nav-principal-item:hover{
+	background:#eb2026;
+}
+.gastronomia .nav-principal-item.current{
+	background:#eb2026;
+}
+
+.nav-principal li.gastronomia .sub-nav-principal{
+
+	border-bottom:7px solid #eb2026;
+}
+.nav-principal li.gastronomia:hover .reg{
+	background:#eb2026;
+}
+.nav-principal li.gastronomia .sub-menu-top{
+	background:#eb2026;
+}
+.nav-principal li.gastronomia .sub-menu-top a{
+	color:#FFFFFF;
+}
+.gastronomia.nav-mapa-site{
+	border-left:9px solid #eb2026;
+
+}
+.gastronomia.nav-mapa-site:hover{
+	background:#eb2026;
+}
+
+
+
+.gastronomia .bloco-3 .posts .nome{
+	color:#eb2026;
+}
+.gastronomia .bloco-3 .posts .nome a{
+	color:#eb2026;
+}
+.gastronomia .bloco-3 .posts .nome a:hover{
+	text-decoration:underline;
+}
+.gastronomia .bloco-3 .posts .endereco{
+	color:#eb2026;
+}
+.gastronomia .bloco-3 .posts .texto1{
+	color:#eb2026;
+}
+.gastronomia .bloco-3 .posts .texto2 span{
+	color:#eb2026;
+}
+
+.gastronomia .categoria h2{
+	color:#eb2026;
+}
+
+
+
+
+    
+    
+    
+    
+ .gastronomia .bloco-form{
+	border-radius:5px;
+	padding:10px;
+	background:#eb2026;
+}
+.gastronomia .bloco-form button{
+	background:#760004;
+	font-weight:700;
+	width:40%;
+	padding:10px;
+	border:none;
+	color:#ffffff;
+	font-size:14px;
+}   
+
+
+.gastronomia .post-destaque-categoria{
+	background:#ff6600;
+	color:#ffffff;
+}
+.gastronomia .post-destaque-titulo{
+	background:#ff9900;
+	color:#ffffff;
+}
+.gastronomia .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-gastronomia.png) no-repeat
+}
+.gastronomia .titulo-categoria{
+	color:#eb2026;
+	font-size:24px;
+}
+/*servicos*/
+.servicos .nav-principal-item{
+	border-top:9px solid #29aae1;
+}
+.servicos .nav-principal-item:hover{
+	background:#29aae1;
+}
+.servicos .nav-principal-item.current{
+	background:#29aae1;
+}
+
+.nav-principal li.servicos .sub-nav-principal{
+	
+	border-bottom:7px solid #29aae1;
+}
+.nav-principal li.servicos:hover .reg{
+	background:#29aae1;
+}
+.nav-principal li.servicos .sub-menu-top{
+	background:#29aae1;
+}
+.nav-principal li.servicos .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+.servicos.nav-mapa-site{
+	border-left:9px solid #29aae1;
+
+}
+.servicos.nav-mapa-site:hover{
+	background:#29aae1;
+}
+
+
+/*moda-e-estilo*/
+.moda-e-estilo .nav-principal-item{
+	border-top:9px solid #92288e;
+}
+.moda-e-estilo .nav-principal-item:hover{
+	background:#92288e;
+}
+.moda-e-estilo .nav-principal-item.current{
+	background:#92288e;
+}
+
+.nav-principal li.moda-e-estilo .sub-nav-principal{
+	
+	border-bottom:7px solid #92288e;
+}
+.nav-principal li.moda-e-estilo:hover .reg{
+	background:#92288e;
+}
+.nav-principal li.moda-e-estilo .sub-menu-top{
+	background:#92288e;
+}
+.nav-principal li.moda-e-estilo .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+.moda-e-estilo.nav-mapa-site{
+	border-left:9px solid #92288e;
+
+}
+.moda-e-estilo.nav-mapa-site:hover{
+	background:#92288e;
+}
+
+
+/*bem-estar*/
+.bem-estar .nav-principal-item{
+	border-top:9px solid #ed1f79;
+}
+.bem-estar .nav-principal-item:hover{
+	background:#ed1f79;
+}
+.bem-estar .nav-principal-item.current{
+	background:#ed1f79;
+}
+
+.nav-principal li.bem-estar .sub-nav-principal{
+	
+	border-bottom:7px solid #ed1f79;
+}
+.nav-principal li.bem-estar:hover .reg{
+	background:#ed1f79;
+}
+.nav-principal li.bem-estar .sub-menu-top{
+	background:#ed1f79;
+}
+.nav-principal li.bem-estar .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+.bem-estar.nav-mapa-site{
+	border-left:9px solid #ed1f79;
+
+}
+.bem-estar.nav-mapa-site:hover{
+	background:#ed1f79;
+}
+
+.bem-estar .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-bem-estar.png) no-repeat !important;
+}
+.bem-estar .titulo-categoria{
+	color:#ed1f79;
+	font-size:24px;
+}
+
+
+.bem-estar .bloco-6 .posts .texto1{
+	color:#ed1f79;
+}
+.bem-estar .bloco-6 .posts .texto2{
+	color:#ed1f79;
+}
+
+/*bem-estar internas*/
+.bem-estar .box-categoria-interna{
+	background:#ed1f79;
+}
+.bem-estar .box-categoria-sub-titulo{
+	background:#ed1f79;
+}
+
+
+
+.bem-estar .box-relacionados .title-box{
+	background:#ed1f79;
+}
+
+.bem-estar .box-post-min-categoria{
+	background:#ed1f79 !important;
+	color:#ffffff;
+}
+.bem-estar .box-post-min-titulo{
+	background:#ed1f79 !important;
+	color:#ffffff;
+}
+.bem-estar .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-diversao.png) no-repeat
+}
+
+.bem-estar .box-post-mais-vistos span{
+	color:#ed1f79;
+}
+
+
+.bem-estar .categoria h2{
+	color:#ed1f79;
+}
+
+
+
+
+
+/*CASA*/
+.casa .nav-principal-item{
+	border-top:9px solid #fbaef8;
+}
+.casa .nav-principal-item:hover{
+	background:#fbaef8;
+}
+.casa .nav-principal-item.current{
+	background:#fbaef8;
+}
+
+.nav-principal li.casa .sub-nav-principal{
+	
+	border-bottom:7px solid #fbaef8;
+}
+.nav-principal li.casa:hover .reg{
+	background:#fbaef8;
+}
+.nav-principal li.casa .sub-menu-top{
+	background:#fbaef8;
+}
+.nav-principal li.casa .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+.casa.nav-mapa-site{
+	border-left:9px solid #fbaef8;
+
+}
+.casa.nav-mapa-site:hover{
+	background:#fbaef8;
+}
+
+.casa .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-casa.png) no-repeat !important;
+}
+.casa .titulo-categoria{
+	color:#fbaef8;
+	font-size:24px;
+}
+
+
+.casa .bloco-6 .posts .texto1{
+	color:#fbaef8;
+}
+.casa .bloco-6 .posts .texto2{
+	color:#fbaef8;
+}
+
+/*casa internas*/
+.casa .box-categoria-interna{
+	background:#fbaef8;
+}
+.casa .box-categoria-sub-titulo{
+	background:#fbaef8;
+}
+
+
+
+.casa .box-relacionados .title-box{
+	background:#fbaef8;
+}
+
+.casa .box-post-min-categoria{
+	background:#fbaef8 !important;
+	color:#ffffff;
+}
+.casa .box-post-min-titulo{
+	background:#fbaef8 !important;
+	color:#ffffff;
+}
+.casa .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-diversao.png) no-repeat
+}
+
+.casa .box-post-mais-vistos span{
+	color:#fbaef8;
+}
+
+
+.casa .categoria h2{
+	color:#fbaef8;
+}
+
+
+
+
+
+
+/*educacao*/
+.educacao .nav-principal-item{
+	border-top:9px solid #016836;
+
+}
+.educacao .nav-principal-item:hover{
+	background:#016836;
+}
+.educacao .nav-principal-item.current{
+	background:#016836;
+}
+
+.nav-principal li.educacao .sub-nav-principal{
+	
+	border-bottom:7px solid #016836;
+}
+.nav-principal li.educacao:hover .reg{
+	background:#016836;
+}
+.nav-principal li.educacao .sub-menu-top{
+	background:#016836;
+}
+.nav-principal li.educacao .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+.educacao.nav-mapa-site{
+	border-left:9px solid #016836;
+
+}
+.educacao.nav-mapa-site:hover{
+	background:#016836;
+}
+
+/*pet-e-agro*/
+.pet-e-agro .nav-principal-item{
+	border-top:9px solid #989898;
+
+}
+.pet-e-agro .nav-principal-item:hover{
+	background:#989898;
+}
+.pet-e-agro .nav-principal-item.current{
+	background:#989898;
+}
+
+.nav-principal li.pet-e-agro .sub-nav-principal{
+	
+	border-bottom:7px solid #989898;
+}
+.nav-principal li.pet-e-agro:hover .reg{
+	background:#989898;
+}
+.nav-principal li.pet-e-agro .sub-menu-top{
+	background:#989898;
+}
+.nav-principal li.pet-e-agro .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+.pet-e-agro.nav-mapa-site{
+	border-left:9px solid #989898;
+
+}
+.pet-e-agro.nav-mapa-site:hover{
+	background:#989898;
+}
+
+
+/*autos*/
+.autos .nav-principal-item{
+	border-top:9px solid #3952a4;
+
+}
+.autos .nav-principal-item:hover{
+	background:#3952a4;
+}
+.autos .nav-principal-item.current{
+	background:#3952a4;
+}
+
+.nav-principal li.autos .sub-nav-principal{
+	
+	border-bottom:7px solid #3952a4;
+}
+.nav-principal li.autos:hover .reg{
+	background:#3952a4;
+}
+
+/*topo*/
+.nav-principal li.autos-top .reg{
+	background:#3952a4;
+	color: #FFF;
+	padding-top:6px !important;
+}
+
+
+.nav-principal li.autos .sub-menu-top{
+	background:#3952a4;
+}
+.nav-principal li.autos .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+.autos.nav-mapa-site{
+	border-left:9px solid #3952a4;
+
+}
+.autos.nav-mapa-site:hover{
+	background:#3952a4;
+}
+
+
+
+
+
+
+.autos .bloco-7 .posts .titulo{
+	color:#3852a4;
+}
+.autos .bloco-7 .posts .texto1{
+	color:#3852a4;
+}
+.autos .bloco-7 .posts .button-categoria{
+	background:#233a7c;
+	color:#FFFFFF;
+}
+
+
+
+.autos .icon-categoria2{
+	float:left;
+	background:url(../img/icon-categoria-autos2.png) no-repeat;
+	width:45px;
+	height:37px;
+}
+
+.autos .titulo-categoria2 a{
+	float:left;
+	color:#3852a4;
+	font-size:24px;
+	font-weight:bold;
+	margin-top:3px;
+	margin-left:10px;
+}
+
+
+
+
+/*imoveis*/
+.imoveis .nav-principal-item{
+	border-top:9px solid #b9529e;
+
+}
+.imoveis .nav-principal-item:hover{
+	background:#b9529e;
+}
+.imoveis .nav-principal-item.current{
+	background:#b9529e;
+}
+
+.nav-principal li.imoveis .sub-nav-principal{
+	
+	border-bottom:6px solid #b9529e;
+}
+
+.nav-principal li.imoveis:hover .reg{
+	background:#b9529e;
+}
+
+
+.nav-principal li.imoveis-top .reg{
+	background:#b9529e;
+	color: #FFF;
+	padding-top:6px !important;
+}
+
+
+
+.nav-principal li.imoveis .sub-menu-top{
+	background:#b9529e;
+}
+.nav-principal li.imoveis .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+.imoveis.nav-mapa-site{
+	border-left:9px solid #b9529e;
+
+}
+.imoveis.nav-mapa-site:hover{
+	background:#b9529e;
+}
+
+
+
+
+
+.imoveis .bloco-8 .posts .titulo{
+	color:#b9529e;
+}
+.imoveis .bloco-8 .posts .texto1{
+	color:#b9529e;
+}
+.imoveis .bloco-8 .posts .button-categoria{
+	background:#b9529e;
+	color:#FFFFFF;
+}
+
+.imoveis .icon-categoria2{
+	float:left;
+	background:url(../img/icon-categoria-imoveis2.png) no-repeat;
+	width:52px;
+	height:37px;
+}
+
+.imoveis .titulo-categoria2 a{
+	float:left;
+	color:#b9529e;
+	font-size:24px;
+	font-weight:bold;
+	margin-top:3px;
+	margin-left:10px;
+}
+
+.imoveis .categoria h2{
+	color:#b9529e;
+}
+
+
+
+
+
+
+
+.institucional.nav-mapa-site{
+	border-left:9px solid #d8a505;
+
+}
+.institucional.nav-mapa-site:hover{
+	background:#d8a505;
+}
+
+
+
+
+
+/*noticias*/
+.noticias .nav-principal-item{
+	border-top:9px solid #74dcec;
+
+}
+.noticias .nav-principal-item:hover{
+	background:#74dcec;
+}
+.noticias .nav-principal-item.current{
+	background:#74dcec;
+}
+.nav-principal li.noticias .sub-nav-principal{
+	
+	border-bottom:7px solid #74dcec;
+}
+.nav-principal li.noticias:hover .reg{
+	background:#74dcec;
+}
+.nav-principal li.noticias .sub-menu-top{
+	background:#74dcec;
+}
+.nav-principal li.noticias .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+
+.noticias.nav-mapa-site{
+	border-left:9px solid #3dafc0;
+
+}
+.noticias.nav-mapa-site:hover{
+	background:#3dafc0;
+}
+
+
+
+
+
+.noticias .post-destaque-categoria{
+	background:#74dcec;
+	color:#ffffff;
+}
+.noticias .post-destaque-titulo{
+	background:#74dcec;
+	color:#ffffff;
+}
+.noticias .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-noticias.png) no-repeat
+}
+.noticias .titulo-categoria{
+	color:#74dcec;
+	font-size:24px;
+}
+/*agenda*/
+.agenda .nav-principal-item{
+	border-top:9px solid #b36900;
+
+}
+.agenda .nav-principal-item:hover{
+	background:#b36900;
+}
+.agenda .nav-principal-item.current{
+	background:#b36900;
+}
+
+.nav-principal li.agenda .sub-nav-principal{
+	
+	border-bottom:7px solid #b36900;
+	
+}
+.nav-principal li.agenda:hover .reg{
+	background:#b36900;
+}
+.nav-principal li.agenda .sub-menu-top{
+	background:#b36900;
+}
+.nav-principal li.agenda .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+.agenda.nav-mapa-site{
+	border-left:9px solid #b36900;
+
+}
+.agenda.nav-mapa-site:hover{
+	background:#b36900;
+}
+
+.agenda .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-agenda.png) no-repeat !important;
+}
+.agenda .titulo-categoria{
+	color:#b36900;
+	font-size:24px;
+}
+
+
+.agenda .post-destaque-categoria{
+	background:#b36900;
+	color:#ffffff;
+}
+.agenda .post-destaque-titulo{
+	background:#b36900;
+	color:#ffffff;
+}
+.agenda .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-agenda.png) no-repeat
+}
+.agenda .titulo-categoria{
+	color:#b36900;
+	font-size:24px;
+}
+/*bloco-3*/
+.agenda .bloco-3 .posts .nome{
+	color:#b36900;
+}
+.agenda .bloco-3 .posts .endereco{
+	color:#b36900;
+}
+.agenda .bloco-3 .posts .texto1{
+	color:#b36900;
+}
+.agenda .bloco-3 .posts .texto2 span{
+	color:#b36900;
+}
+/*bloco-5*/
+.agenda .bloco-5 .posts .texto1{
+	color:#b36900;
+}
+.agenda .bloco-5 .posts .texto2{
+	color:#b36900;
+}
+/*bloco-6*/
+.agenda .bloco-6 .posts .texto1{
+	color:#b36900;
+}
+.agenda .bloco-6 .posts .texto2{
+	color:#b36900;
+}
+/*bloco-7*/
+.agenda .bloco-7 .posts .titulo{
+	color:#b36900;
+}
+.agenda .bloco-7 .posts .texto1{
+	color:#b36900;
+}
+.agenda .bloco-7 .posts .button-categoria{
+	background:#b36900;
+	color:#FFFFFF;
+}
+/*bloco-8*/
+.agenda .bloco-8 .posts .titulo{
+	color:#b36900;
+}
+.agenda .bloco-8 .posts .texto1{
+	color:#b36900;
+}
+.agenda .bloco-8 .posts .button-categoria{
+	background:#b36900;
+	color:#FFFFFF;
+}
+/*bloco-9*/
+.agenda .bloco-9 .dia-ext1{
+	background:#b36900;
+}
+.agenda .bloco-9 .dia-ext2{
+	background:#b36900;
+
+}
+
+
+
+/*agenda internas*/
+.agenda .box-categoria-interna{
+	background:#b36900;
+}
+.agenda .box-categoria-sub-titulo{
+	background:#b36900;
+}
+
+
+
+.agenda .box-relacionados .title-box{
+	background:#b36900;
+}
+
+.agenda .box-post-min-categoria{
+	background:#b36900 !important;
+	color:#ffffff;
+}
+.agenda .box-post-min-titulo{
+	background:#b36900 !important;
+	color:#ffffff;
+}
+.agenda .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-diversao.png) no-repeat
+}
+
+.agenda .box-post-mais-vistos span{
+	color:#b36900;
+}
+
+
+
+
+
+/*bloco agenda lateral*/
+.agenda .agenda-lateral .bloco-titulo-categoria{
+	background:#b36900;
+}
+.agenda .agenda-lateral .icon-categoria{
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria.png) no-repeat
+}
+.agenda .agenda-lateral .titulo-categoria{
+	color:#FFFFFF;
+	margin-bottom:3px;
+}
+.agenda .agenda-lateral .dia-ext1{
+	background:#b36900;
+}
+.agenda .agenda-lateral .dia-ext2{
+	background:#b36900;
+
+}
+
+
+.agenda .categoria h2{
+	color:#b36900;
+}
+
+
+/*vantagens*/
+.vantagens .nav-principal-item{
+	border-top:9px solid #8cc540;
+
+}
+.vantagens .nav-principal-item:hover{
+	background:#8cc540;
+}
+.vantagens .nav-principal-item.current{
+	background:#8cc540;
+}
+
+.nav-principal li.vantagens .sub-nav-principal{
+	
+	border-bottom:7px solid #8cc540;
+}
+.nav-principal li.vantagens:hover .reg{
+	background:#8cc540;
+}
+.nav-principal li.vantagens .sub-menu-top{
+	background:#8cc540;
+}
+.nav-principal li.vantagens .sub-menu-top a{
+	color:#FFFFFF;
+}
+
+.vantagens.nav-mapa-site{
+	border-left:9px solid #8cc540;
+
+}
+.vantagens.nav-mapa-site:hover{
+	background:#8cc540;
+}
+
+.vantagens.nav-mapa-site{
+	border-left:9px solid #8cc540;
+
+}
+.vantagens.nav-mapa-site:hover{
+	background:#8cc540;
+}
+.vantagens .post-destaque-categoria{
+	background:#8cc540;
+	color:#ffffff;
+}
+.vantagens .post-destaque-titulo{
+	background:#6fa528;
+	color:#ffffff;
+}
+.vantagens .icon-categoria{
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-vantagens.png) no-repeat
+}
+.vantagens .titulo-categoria{
+	color:#8cc540;
+	font-size:24px;
+}
+
+
+
+
+.vantagens .bloco-4 .icon-relogio{
+	background:url(../img/icon-relogio-vantagens.png) no-repeat;
+}
+
+.vantagens .bloco-4 .destaque-oferta span{
+	color:#94e12e;
+}
+
+
+
+/*bloco agenda lateral*/
+.vantagens .agenda-lateral .bloco-titulo-categoria{
+	background:#94e12e;
+}
+.vantagens .agenda-lateral .icon-categoria{
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria.png) no-repeat
+}
+.vantagens .agenda-lateral .titulo-categoria{
+	color:#FFFFFF;
+	margin-bottom:3px;
+}
+.vantagens .agenda-lateral .dia-ext1{
+	background:#94e12e;
+}
+.vantagens .agenda-lateral .dia-ext2{
+	background:#94e12e;
+
+}
+
+
+.vantagens .categoria h2{
+	color:#94e12e;
+}
+
+/*atendimento*/
+.atendimento .icon-categoria{
+	margin-top:5px;
+	float:left;
+	width:14px;
+	height:25px;
+	background:url(../img/icon-categoria-atendimento.png) no-repeat
+}
+.atendimento .titulo-categoria{
+	color:#151515;
+	font-size:24px;
+}
+
+
+
+
+
+
+
+/*configurações autos*/
+.autos .bdge{
+	background-color:#3952a4;
+}
+.autos .alpha60 {background: rgb(57, 82, 164) !important;	background: rgba(57, 82, 164, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.autos .border{
+	border-color:#3952a4;
+}
+.autos .color{
+	color:#3952a4;
+}
+.autos .color-link a{
+	color:#3952a4;
+}
+
+.autos .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#3952a4;
+}
+.autos .conteudo-tabs-estabelecimentos{
+	border:2px solid #3952a4;
+}
+/*configurações gastronomia*/
+.educacao .bdge{
+	background-color:#016836;
+}
+.educacao .alpha60 {background: rgb(1, 104, 54) !important;	background: rgba(1, 104, 54, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.educacao .border{
+	border-color:#016836;
+}
+.educacao .color{
+	color:#016836;
+}
+.educacao .color-link a{
+	color:#016836;
+}
+
+.educacao .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#016836;
+}
+.educacao .conteudo-tabs-estabelecimentos{
+	border:2px solid #016836;
+}
+/*configurações notícias*/
+.noticias .bdge{
+	background-color:#74DCEC;
+}
+.noticias .alpha60 {background: rgb(116, 220, 236) !important;	background: rgba(116, 220, 236, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.noticias .border{
+	border-color:#74dcec;
+}
+.noticias .color{
+	color:#74dcec;
+}
+.noticias .color-link a{
+	color:#74dcec;
+}
+
+.noticias .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#74dcec;
+}
+.noticias .conteudo-tabs-estabelecimentos{
+	border:2px solid #74dcec;
+}
+/*configurações gastronomia*/
+.gastronomia .bdge{
+	background-color:#eb2026;
+}
+.gastronomia .alpha60 {background: rgb(235, 32, 38) !important;	background: rgba(235, 32, 38, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.gastronomia .border{
+	border-color:#eb2026;
+}
+.gastronomia .color{
+	color:#eb2026;
+}
+.gastronomia .color-link a{
+	color:#eb2026;
+}
+.gastronomia .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#ce1e23;
+}
+.gastronomia .conteudo-tabs-estabelecimentos{
+	border:2px solid #ce1e23;
+}
+/*configurações diversao*/
+.diversao .bdge{
+	background-color:#f79320;
+}
+.diversao .alpha60 {background: rgb(247, 147, 32) !important;	background: rgba(247, 147, 32, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.diversao .border{
+	border-color:#f79320;
+}
+.diversao .color{
+	color:#f79320;
+}
+.diversao .color-link a{
+	color:#f79320;
+}
+
+.diversao .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#f79320;
+}
+.diversao .conteudo-tabs-estabelecimentos{
+	border:2px solid #f79320;
+}
+
+
+/*configurações agenda*/
+.agenda .bdge{
+	background-color:#b36900;
+}
+.agenda .alpha60 {background: rgb(179, 105, 0) !important;	background: rgba(179, 105, 0, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.agenda .border{
+	border-color:#b36900;
+}
+
+.agenda .color{
+	color:#b36900;
+}
+.agenda .color-link a{
+	color:#b36900;
+}
+
+.agenda .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#b36900;
+}
+.agenda .conteudo-tabs-estabelecimentos{
+	border:2px solid #b36900;
+}
+
+
+
+
+/*configurações imoveis*/
+.imoveis .bdge{
+	background-color:#b9529e;
+}
+.imoveis .alpha60 {background: rgb(185, 82, 158) !important;	background: rgba(185, 82, 158, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.imoveis .border{
+	border-color:#b9529e;
+}
+.imoveis .color{
+	color:#b9529e;
+}
+.imoveis .color-link a{
+	color:#b9529e;
+}
+
+.imoveis .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#b9529e;
+}
+.imoveis .conteudo-tabs-estabelecimentos{
+	border:2px solid #b9529e;
+}
+
+
+/*configurações servicos*/
+.servicos .bdge{
+	background-color:#29aae1;
+}
+
+.servicos .alpha60 {background: rgb(41, 170, 225) !important;	background: rgba(41, 170, 225, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.servicos .border{
+	border-color:#29aae1;
+}
+.servicos .color{
+	color:#29aae1;
+}
+.servicos .color-link a{
+	color:#29aae1;
+}
+
+.servicos .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#29aae1;
+}
+.servicos .conteudo-tabs-estabelecimentos{
+	border:2px solid #29aae1;
+}
+
+/*configurações bem-estar*/
+.bem-estar .bdge{
+	background-color:#ed1f79;
+}
+.bem-estar .alpha60 {background: rgb(237, 31, 121) !important;	background: rgba(237, 31, 121, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+
+.bem-estar .border{
+	border-color:#ed1f79;
+}
+.bem-estar .color{
+	color:#ed1f79;
+}
+.bem-estar .color-link a{
+	color:#ed1f79;
+}
+
+.bem-estar .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#ed1f79;
+}
+.bem-estar .conteudo-tabs-estabelecimentos{
+	border:2px solid #ed1f79;
+}
+
+
+
+/*configurações casa*/
+.casa .bdge{
+	background-color:#fbaef8;
+}
+.casa .alpha60 {background: rgb(251, 174, 248) !important;	background: rgba(251, 174, 248, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+
+.casa .border{
+	border-color:#fbaef8;
+}
+.casa .color{
+	color:#fbaef8;
+}
+.casa .color-link a{
+	color:#fbaef8;
+}
+
+.casa .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#fbaef8;
+}
+.casa .conteudo-tabs-estabelecimentos{
+	border:2px solid #fbaef8;
+}
+
+
+
+/*configurações pet-e-agro*/
+.pet-e-agro .bdge{
+	background-color:#989898;
+}
+.pet-e-agro .alpha60 {background: rgb(152, 152, 152) !important;	background: rgba(152, 152, 152, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+
+.pet-e-agro .border{
+	border-color:#989898;
+}
+.pet-e-agro .color{
+	color:#989898;
+}
+.pet-e-agro .color-link a{
+	color:#989898;
+}
+
+.pet-e-agro .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#989898;
+}
+.pet-e-agro .conteudo-tabs-estabelecimentos{
+	border:2px solid #989898;
+}
+
+
+/*configurações moda-e-estilo*/
+.moda-e-estilo .bdge{
+	background-color:#92288e;
+}
+.moda-e-estilo .alpha60 {background: rgb(146, 40, 142) !important;	background: rgba(146, 40, 142, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+
+.moda-e-estilo .border{
+	border-color:#92288e;
+}
+.moda-e-estilo .color{
+	color:#92288e;
+}
+.moda-e-estilo .color-link a{
+	color:#92288e;
+}
+
+.moda-e-estilo .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#92288e;
+}
+.moda-e-estilo .conteudo-tabs-estabelecimentos{
+	border:2px solid #92288e;
+}
+/*users*/
+.users .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#b8ca00;
+}
+.users .nav-tabs-estabelecimentos .ui-tabs-active a{
+	color:#2E2E2E;
+}
+.users .conteudo-tabs-estabelecimentos{
+	border:2px solid #d1ea01;
+	height:auto !important;
+	background:#d1ea01;
+	border-radius:0px 5px 5px 5px;
+}
+.users .link-tab{
+	background:#e1e1e1;
+	border-radius:5px 5px 0px 0px;
+}
+/*configurações moda-e-estilo*/
+.galerias .bdge{
+	background-color:#E4D600;
+}
+
+.galerias .alpha60 {background: rgb(228, 214, 0) !important;	background: rgba(228, 214, 0, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+.galerias .border{
+	border-color:#E4D600;
+}
+.galerias .color{
+	color:#E4D600;
+}
+.galerias .color-link a{
+	color:#E4D600;
+}
+
+.galerias .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#E4D600;
+}
+.galerias .conteudo-tabs-estabelecimentos{
+	border:2px solid #E4D600;
+}
+/*configurações vantagem dia*/
+.vantagens .bdge{
+	background-color:#8cc540;
+}
+.vantagens .alpha60 {background: rgb(140, 197, 64) !important;	background: rgba(140, 197, 64, 0.6) !important;	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.vantagens .border{
+	border-color:#8cc540;
+}
+.vantagens .color{
+	color:#8cc540;
+}
+.vantagens .color-link a{
+	color:#8cc540;
+}
+
+.vantagens .nav-tabs-estabelecimentos .ui-tabs-active{
+	background:#8cc540;
+}
+.vantagens .conteudo-tabs-estabelecimentos{
+	border:2px solid #8cc540;
+}
+
+

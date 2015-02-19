@@ -1,0 +1,62 @@
+/***stilo das paginas de noticias***/
+
+.conteudo_style{
+	margin-top:10px; 
+	color: #333; 
+	font-size: 1.26em !important; 
+	letter-spacing: -0.02em; 
+	line-height: 1.45em !important; 
+	padding-bottom: 1.5em; 
+	text-align:left !important;
+	border-top:1px solid #ccc;
+}
+
+.style_subtitulo{
+	color:#aaa !important;
+	font-size:16px !important;
+}
+
+.style_titulo{
+	color:#222 !important;
+	font-size:30px !important;
+	text-align: justify !important;
+    text-justify: inter-word !important;
+   
+}
+
+.redes-compartilhe{
+	margin-top:10px !important;
+}
+
+.line-drop-1{
+	height:30px;
+}
+
+.line-drop-bottom-1{
+	height:30px;
+	border-bottom:1px solid #ccc; 
+}
+
+.imagem-topo-pagina{
+	padding-top:20px; 
+	
+	width:100%;
+}
+
+.noticias .color {
+    color: #444 !important;
+}
+
+.date-pequena-cinza{
+	color:#aaa !important;
+	
+}
+
+/*override do design do acordion da pagina de estabelecimentos (business)*/
+#accordion .ui-state-default {
+    background: url("images/ui-bg_glass_75_FF6600_1x400.png") repeat-x scroll 50% 50% #F79320;
+    border: 1px solid #bbb;
+    color: #fff;
+    font-weight: normal;
+}
+

@@ -1,0 +1,8 @@
+[21-Dec-2013 14:30:47] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/Database/PostgresTest.php on line 20
+[21-Dec-2013 14:32:59] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/Database/SqlserverTest.php on line 20
+[21-Dec-2013 14:33:17] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/Database/SqliteTest.php on line 19
+[21-Dec-2013 14:41:46] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/Database/MysqlTest.php on line 19
+[24-Dec-2013 05:32:19] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/Database/PostgresTest.php on line 20
+[24-Dec-2013 07:19:27] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/Database/SqliteTest.php on line 19
+[24-Dec-2013 08:19:58] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/Database/SqlserverTest.php on line 20
+[24-Dec-2013 09:34:21] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/Database/MysqlTest.php on line 19

@@ -1,0 +1,6 @@
+[21-Dec-2013 13:36:58] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/DboSourceTest.php on line 20
+[21-Dec-2013 14:09:56] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/CakeSessionTest.php on line 20
+[21-Dec-2013 14:13:31] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/DataSourceTest.php on line 20
+[23-Dec-2013 08:39:11] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/DataSourceTest.php on line 20
+[23-Dec-2013 09:49:04] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/CakeSessionTest.php on line 20
+[23-Dec-2013 12:34:22] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Model/Datasource/DboSourceTest.php on line 20

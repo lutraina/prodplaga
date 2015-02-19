@@ -1,0 +1,2 @@
+[21-Dec-2013 14:05:05] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Routing/Filter/AssetDispatcherTest.php on line 16
+[23-Dec-2013 16:12:20] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Routing/Filter/AssetDispatcherTest.php on line 16

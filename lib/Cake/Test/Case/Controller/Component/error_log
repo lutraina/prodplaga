@@ -1,0 +1,16 @@
+[21-Dec-2013 13:36:38] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/AclComponentTest.php on line 19
+[21-Dec-2013 13:40:22] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/SecurityComponentTest.php on line 20
+[21-Dec-2013 13:41:48] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/SessionComponentTest.php on line 19
+[21-Dec-2013 13:45:21] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/EmailComponentTest.php on line 21
+[21-Dec-2013 13:48:44] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/PaginatorComponentTest.php on line 22
+[21-Dec-2013 13:54:55] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/RequestHandlerComponentTest.php on line 19
+[21-Dec-2013 13:55:37] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/CookieComponentTest.php on line 20
+[21-Dec-2013 14:08:00] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/AuthComponentTest.php on line 20
+[23-Dec-2013 04:54:16] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/SecurityComponentTest.php on line 20
+[23-Dec-2013 06:11:39] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/RequestHandlerComponentTest.php on line 19
+[23-Dec-2013 06:34:42] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/AuthComponentTest.php on line 20
+[23-Dec-2013 09:31:14] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/EmailComponentTest.php on line 21
+[23-Dec-2013 12:56:15] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/CookieComponentTest.php on line 20
+[23-Dec-2013 14:02:49] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/PaginatorComponentTest.php on line 22
+[23-Dec-2013 14:40:23] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/SessionComponentTest.php on line 19
+[23-Dec-2013 16:05:20] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/Component/AclComponentTest.php on line 19

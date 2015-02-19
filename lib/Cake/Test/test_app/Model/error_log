@@ -1,0 +1,10 @@
+[21-Dec-2013 05:40:15] PHP Fatal error:  Class 'AppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/Post.php on line 21
+[21-Dec-2013 06:40:51] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/AppModel.php on line 23
+[21-Dec-2013 06:49:07] PHP Fatal error:  Class 'AppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/PersisterTwo.php on line 21
+[21-Dec-2013 06:52:07] PHP Fatal error:  Class 'AppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/PersisterOne.php on line 21
+[21-Dec-2013 07:32:21] PHP Fatal error:  Class 'AppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/Comment.php on line 21
+[21-Dec-2013 09:33:34] PHP Fatal error:  Class 'AppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/Comment.php on line 21
+[21-Dec-2013 10:03:58] PHP Fatal error:  Class 'AppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/PersisterTwo.php on line 21
+[21-Dec-2013 10:04:33] PHP Fatal error:  Class 'AppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/PersisterOne.php on line 21
+[21-Dec-2013 10:28:49] PHP Fatal error:  Class 'AppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/Post.php on line 21
+[21-Dec-2013 11:47:38] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Model/AppModel.php on line 23

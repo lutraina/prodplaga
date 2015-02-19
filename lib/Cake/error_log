@@ -1,0 +1,44 @@
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 37
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 47
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant ROOT - assumed 'ROOT' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 53
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 53
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant APP_DIR - assumed 'APP_DIR' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 53
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 53
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 59
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant WWW_ROOT - assumed 'WWW_ROOT' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 64
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 64
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant WWW_ROOT - assumed 'WWW_ROOT' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 69
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 69
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant WWW_ROOT - assumed 'WWW_ROOT' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 74
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 74
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 80
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 87
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 94
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 101
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant ROOT - assumed 'ROOT' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 108
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 108
+[21-Dec-2013 05:34:38] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 108
+[21-Dec-2013 05:34:38] PHP Warning:  require(/home/nocam569/public_html/libDSCakeDSbasics.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 133
+[21-Dec-2013 05:34:38] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/nocam569/public_html/libDSCakeDSbasics.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 133
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 37
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 47
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant ROOT - assumed 'ROOT' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 53
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 53
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant APP_DIR - assumed 'APP_DIR' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 53
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 53
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 59
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant WWW_ROOT - assumed 'WWW_ROOT' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 64
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 64
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant WWW_ROOT - assumed 'WWW_ROOT' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 69
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 69
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant WWW_ROOT - assumed 'WWW_ROOT' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 74
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 74
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 80
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 87
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 94
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 101
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant ROOT - assumed 'ROOT' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 108
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 108
+[21-Dec-2013 07:55:33] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 108
+[21-Dec-2013 07:55:33] PHP Warning:  require(/home/nocam569/public_html/libDSCakeDSbasics.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 133
+[21-Dec-2013 07:55:33] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/nocam569/public_html/libDSCakeDSbasics.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nocam569/public_html/lib/Cake/bootstrap.php on line 133

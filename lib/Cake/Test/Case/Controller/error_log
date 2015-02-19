@@ -1,0 +1,12 @@
+[21-Dec-2013 10:22:45] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/PagesControllerTest.php on line 20
+[21-Dec-2013 10:36:03] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/ControllerTest.php on line 15
+[21-Dec-2013 11:00:12] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/ComponentTest.php on line 20
+[21-Dec-2013 11:07:24] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/ComponentCollectionTest.php on line 19
+[21-Dec-2013 11:23:33] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/ScaffoldTest.php on line 19
+[21-Dec-2013 11:27:04] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/ControllerMergeVarsTest.php on line 21
+[21-Dec-2013 23:10:42] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/ScaffoldTest.php on line 19
+[21-Dec-2013 23:27:19] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/ControllerTest.php on line 15
+[21-Dec-2013 23:48:06] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/ComponentTest.php on line 20
+[21-Dec-2013 23:49:42] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/ControllerMergeVarsTest.php on line 21
+[22-Dec-2013 01:14:59] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/ComponentCollectionTest.php on line 19
+[22-Dec-2013 02:19:29] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Controller/PagesControllerTest.php on line 20

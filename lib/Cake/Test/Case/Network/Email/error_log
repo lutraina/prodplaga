@@ -1,0 +1,8 @@
+[21-Dec-2013 15:16:00] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Email/CakeEmailTest.php on line 19
+[21-Dec-2013 15:16:35] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Email/SmtpTransportTest.php on line 19
+[21-Dec-2013 15:16:53] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Email/MailTransportTest.php on line 19
+[21-Dec-2013 15:17:19] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Email/DebugTransportTest.php on line 19
+[23-Dec-2013 09:32:35] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Email/SmtpTransportTest.php on line 19
+[23-Dec-2013 10:47:27] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Email/DebugTransportTest.php on line 19
+[23-Dec-2013 13:15:05] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Email/CakeEmailTest.php on line 19
+[23-Dec-2013 16:59:57] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/Case/Network/Email/MailTransportTest.php on line 19

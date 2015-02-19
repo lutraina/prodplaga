@@ -1,0 +1,8 @@
+[21-Dec-2013 12:16:46] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Model/Behavior/AclBehavior.php on line 21
+[21-Dec-2013 12:34:41] PHP Fatal error:  Class 'ModelBehavior' not found in /home/nocam569/public_html/lib/Cake/Model/Behavior/TreeBehavior.php on line 31
+[21-Dec-2013 12:58:36] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Model/Behavior/TranslateBehavior.php on line 16
+[21-Dec-2013 13:14:13] PHP Fatal error:  Class 'ModelBehavior' not found in /home/nocam569/public_html/lib/Cake/Model/Behavior/ContainableBehavior.php on line 30
+[22-Dec-2013 08:24:13] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Model/Behavior/AclBehavior.php on line 21
+[22-Dec-2013 10:48:43] PHP Fatal error:  Class 'ModelBehavior' not found in /home/nocam569/public_html/lib/Cake/Model/Behavior/TreeBehavior.php on line 31
+[22-Dec-2013 16:28:03] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Model/Behavior/TranslateBehavior.php on line 16
+[22-Dec-2013 20:15:06] PHP Fatal error:  Class 'ModelBehavior' not found in /home/nocam569/public_html/lib/Cake/Model/Behavior/ContainableBehavior.php on line 30

@@ -1,0 +1,9 @@
+[21-Dec-2013 10:22:33] PHP Fatal error:  Class 'CakeTestModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginAppModel.php on line 19
+[21-Dec-2013 10:41:34] PHP Fatal error:  Class 'TestPluginAppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginComment.php on line 22
+[21-Dec-2013 10:42:40] PHP Fatal error:  Class 'TestPluginAppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginAuthors.php on line 22
+[21-Dec-2013 10:57:10] PHP Fatal error:  Class 'TestPluginAppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginPost.php on line 21
+[21-Dec-2013 11:32:50] PHP Fatal error:  Class 'TestPluginAppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginAuthUser.php on line 19
+[21-Dec-2013 22:40:01] PHP Fatal error:  Class 'TestPluginAppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginComment.php on line 22
+[22-Dec-2013 00:01:53] PHP Fatal error:  Class 'TestPluginAppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginAuthors.php on line 22
+[22-Dec-2013 02:58:12] PHP Fatal error:  Class 'CakeTestModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginAppModel.php on line 19
+[22-Dec-2013 03:16:24] PHP Fatal error:  Class 'TestPluginAppModel' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginPost.php on line 21

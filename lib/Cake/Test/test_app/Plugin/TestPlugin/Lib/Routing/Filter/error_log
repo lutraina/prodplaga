@@ -1,0 +1,4 @@
+[21-Dec-2013 14:54:07] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Lib/Routing/Filter/Test2DispatcherFilter.php on line 19
+[21-Dec-2013 14:59:28] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Lib/Routing/Filter/TestDispatcherFilter.php on line 19
+[24-Dec-2013 06:44:51] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Lib/Routing/Filter/Test2DispatcherFilter.php on line 19
+[24-Dec-2013 11:49:18] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Lib/Routing/Filter/TestDispatcherFilter.php on line 19

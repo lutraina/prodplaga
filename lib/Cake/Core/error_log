@@ -1,0 +1,4 @@
+[21-Dec-2013 09:04:21] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Core/Object.php on line 16
+[21-Dec-2013 09:15:50] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Core/Configure.php on line 16
+[21-Dec-2013 18:52:54] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Core/Object.php on line 16
+[21-Dec-2013 19:31:46] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Core/Configure.php on line 16

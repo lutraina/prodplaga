@@ -1,0 +1,4 @@
+[21-Dec-2013 09:33:46] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Error/ErrorHandler.php on line 22
+[21-Dec-2013 09:46:43] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Error/ExceptionRenderer.php on line 23
+[21-Dec-2013 19:58:11] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Error/ErrorHandler.php on line 22
+[21-Dec-2013 20:41:32] PHP Fatal error:  Class 'App' not found in /home/nocam569/public_html/lib/Cake/Error/ExceptionRenderer.php on line 23

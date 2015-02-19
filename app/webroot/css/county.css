@@ -1,0 +1,210 @@
+﻿
+
+.county-reflection
+{
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+}
+.county
+{
+  height:23px !important;
+  margin-top:3px !important;
+  padding:none !important;
+}
+
+
+.county > span
+{
+	float:left !important;
+	width:22px !important;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+    overflow: hidden;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center !important;
+    margin:0px !important;
+    padding:5px 0px 5px 0px !important;
+   
+}
+.county > span.divisao-hora{
+	float:left !important;
+	width:5px !important;
+	margin:0 !important;
+	padding:0 !important;
+	margin-top:8px !important;
+	margin-left:2px !important;
+	margin-right:2px !important;
+}
+
+.county-days-wrapper, .county-hours-wrapper, .county-minutes-wrapper, .county-seconds-wrapper
+{
+    overflow: hidden !important;
+    position: relative !important;
+    height: 23px !important;
+    display: inline-block !important;
+    padding:0 !important;
+}
+.county > span > span
+{
+	float:left;
+    display: block;
+    padding-top:5px;
+    padding-left:5px;
+   
+}
+.county-label-days, .county-label-hours, .county-label-minutes, .county-label-seconds
+{
+    font-size: 12px !important;
+    text-align: center !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 0px;
+    background-color: transparent !important;
+}
+
+.clear
+{
+    clear: both;
+}
+/*color schemes*/
+/*black*/
+.county.black .county-days-wrapper, .county.black .county-hours-wrapper, .county.black .county-minutes-wrapper, .county.black .county-seconds-wrapper
+{
+    background: #080808;
+    background: -moz-linear-gradient(top,  #080808 0%, #080808 40%, #000000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#080808), color-stop(40%,#080808), color-stop(100%,#000000));
+    background: -webkit-linear-gradient(top,  #080808 0%,#080808 40%,#000000 100%);
+    background: -o-linear-gradient(top,  #080808 0%,#080808 40%,#000000 100%);
+    background: -ms-linear-gradient(top,  #080808 0%,#080808 40%,#000000 100%);
+    background: linear-gradient(to bottom,  #080808 0%,#080808 40%,#000000 100%);
+    color: White;
+    border-top: solid 1px #494949;
+    border-bottom: solid 1px #242424;
+}
+.county.black .county-label-days, .county.black .county-label-hours, .county.black .county-label-minutes, .county.black .county-label-seconds
+{
+    color: #ffffff;
+}
+.county.black span.separator-left
+{
+    border-left: solid 1px #2E2E2E;
+}
+.county.black span.separator-right
+{
+    border-right: solid 1px #121212;
+}
+
+/*red*/
+.county.red
+{
+    background: #fff;    
+}
+.county.red .county-days-wrapper, .county.red .county-hours-wrapper, .county.red .county-minutes-wrapper, .county.red .county-seconds-wrapper
+{
+    background: #fff;
+    color: #e41f3a;
+}
+.county.red .county-label-days, .county.red .county-label-hours, .county.red .county-label-minutes, .county.red .county-label-seconds
+{
+    color: #e41f3a;
+}
+.county.red span.separator-left
+{
+    border-left: solid 1px #E0E0E0;
+}
+.county.red span.separator-right
+{
+    border-right: solid 1px #E0E0E0;
+}
+
+/*gray*/
+
+.county.gray .county-days-wrapper, .county.gray .county-hours-wrapper, .county.gray .county-minutes-wrapper, .county.gray .county-seconds-wrapper
+{
+    color: Gray;
+    background: #E0E0E0;
+    background: -moz-linear-gradient(top,  #E0E0E0 0%, #E0E0E0 40%, #FAFAFA 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E0E0E0), color-stop(40%,#E0E0E0), color-stop(100%,#FAFAFA));
+    background: -webkit-linear-gradient(top,  #E0E0E0 0%,#E0E0E0 40%,#FAFAFA 100%);
+    background: -o-linear-gradient(top,  #E0E0E0 0%,#E0E0E0 40%,#FAFAFA 100%);
+    background: -ms-linear-gradient(top,  #E0E0E0 0%,#E0E0E0 40%,#FAFAFA 100%);
+    background: linear-gradient(to bottom,  #E0E0E0 0%,#E0E0E0 40%,#FAFAFA 100%);
+    border-top: solid 1px #FAFAFA;
+    border-bottom: solid 1px #FAFAFA;
+}
+.county.gray .county-label-days, .county.gray .county-label-hours, .county.gray .county-label-minutes, .county.gray .county-label-seconds
+{
+    color: Gray;
+}
+.county.gray span.separator-left
+{
+    border-left: solid 1px #FAFAFA;
+}
+.county.gray span.separator-right
+{
+    border-right: solid 1px #FAFAFA;
+}
+
+/*blue*/
+
+.county.blue .county-days-wrapper, .county.blue .county-hours-wrapper, .county.blue .county-minutes-wrapper, .county.blue .county-seconds-wrapper
+{
+    color: white;
+    background: #248AB2;
+    background: -moz-linear-gradient(top,  #248AB2 0%, #248AB2 40%, #50BCE6 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#248AB2), color-stop(40%,#248AB2), color-stop(100%,#50BCE6));
+    background: -webkit-linear-gradient(top,  #248AB2 0%,#248AB2 40%,#50BCE6 100%);
+    background: -o-linear-gradient(top,  #248AB2 0%,#248AB2 40%,#50BCE6 100%);
+    background: -ms-linear-gradient(top,  #248AB2 0%,#248AB2 40%,#50BCE6 100%);
+    background: linear-gradient(to bottom,  #248AB2 0%,#248AB2 40%,#50BCE6 100%);
+    border-top: solid 1px #50BCE6;
+    border-bottom: solid 1px #50BCE6;
+}
+.county.blue .county-label-days, .county.blue .county-label-hours, .county.blue .county-label-minutes, .county.blue .county-label-seconds
+{
+    color: #FFFFFF;
+}
+.county.blue span.separator-left
+{
+    border-left: solid 1px #50BCE6;
+}
+.county.blue span.separator-right
+{
+    border-right: solid 1px #50BCE6;
+}
+
+
+
+
+
+.county-label-days, .county-label-hours, .county-label-seconds, .county-label-minutes{
+	display:none !important;
+}
+.county-days-wrapper{
+	background:#436516;
+}
+.county-hours-wrapper{
+	background:#436516;
+}
+.county-minutes-wrapper{
+	background:#436516;
+}
+.county-seconds-wrapper{
+	background:#436516;
+}
+
+.divisao-hora{
+	float:left !important;
+	padding:0 !important;
+	margin-top:3px !important;
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+
+.county-days-wrapper{
+	display:none !important;
+}

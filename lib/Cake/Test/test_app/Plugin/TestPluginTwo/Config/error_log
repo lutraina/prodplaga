@@ -1,0 +1,2 @@
+[21-Dec-2013 11:26:26] PHP Fatal error:  Class 'Configure' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPluginTwo/Config/bootstrap.php on line 2
+[22-Dec-2013 02:26:47] PHP Fatal error:  Class 'Configure' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPluginTwo/Config/bootstrap.php on line 2

@@ -1,0 +1,4 @@
+[21-Dec-2013 13:45:11] PHP Fatal error:  Class 'ModelBehavior' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/Behavior/TestPluginPersisterTwoBehavior.php on line 30
+[21-Dec-2013 14:23:48] PHP Fatal error:  Class 'ModelBehavior' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/Behavior/TestPluginPersisterOneBehavior.php on line 30
+[23-Dec-2013 05:49:37] PHP Fatal error:  Class 'ModelBehavior' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/Behavior/TestPluginPersisterTwoBehavior.php on line 30
+[23-Dec-2013 08:15:07] PHP Fatal error:  Class 'ModelBehavior' not found in /home/nocam569/public_html/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/Behavior/TestPluginPersisterOneBehavior.php on line 30

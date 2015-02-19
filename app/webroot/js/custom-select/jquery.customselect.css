@@ -1,0 +1,82 @@
+.customselect_main { 
+	position: relative; 
+	background-color: #fff; 
+	height: 27px;
+}
+.customselect_container { 
+	z-index: 2; 
+	border: 1px solid #B0B0B0; 
+	border-radius: 3px; 
+	position: absolute; 
+	background-color: #fff; 
+	width: 200px;
+}
+
+.customselect_container.active { z-index: 3; }
+
+.customselect_label { 
+	border-radius: 3px; 
+	height: 15px; 
+	line-height: 15px; 
+	color: #747474; 
+	font-family: verdana; 
+	font-size: 11px; 
+	padding: 5px 25px 5px 10px; 
+	cursor: pointer; 
+	background-color: #fff;
+	overflow: hidden;
+	white-space: nowrap;	
+	width: 150px;
+}
+
+.customselect_button { 
+	cursor: pointer; 
+	display: block; 
+	position: absolute; 
+	top: -1px; 
+	right: 0px; 
+	padding: 0px; 
+	width: 26px; 
+	height: 27px; 
+	border: 0px; 
+	background-color: #2e2e2e; 
+	background-position: center center; 
+	background-repeat: no-repeat; 
+	background-image: url('img/vertical-increment-arrow.png');
+}
+
+.readonly .customselect_label,
+.readonly .customselect_button { background-color: #f1f1f1; color: #ccc; cursor: default; }
+
+.custonselect_list { 
+	max-height: 250px;
+	overflow: auto; 
+	margin: 0px 0px 3px 0px; 
+	padding: 0px; 
+	-webkit-transition: display 0.4s; 
+	background-color: #fff; 
+}
+
+.custonselect_list.open { display: block; }
+.custonselect_list.close { display: none; }
+.custonselect_list li { 
+	list-style: none; 
+	background-color: #f2f2f2; 
+	margin-top: 1px; 
+	-webkit-transition: all 0.4s; 
+	width: 124px;
+	border-radius:0;
+}
+
+.custonselect_list li:nth-child(2n+2) { background-color: #fafafa; }
+.custonselect_list li:hover { background-color: #2e2e2e; }
+.custonselect_list li:hover span { color: #cde500; }
+.custonselect_list li span { 
+	float:left;
+	margin-left:-20px;
+	display: block; 
+	font-family: verdana; 
+	font-size: 11px; 
+	cursor: pointer; 
+	color: #747474; 
+}

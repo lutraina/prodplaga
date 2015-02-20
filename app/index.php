@@ -1,4 +1,4 @@
-<?php echo "testeblabla.php";
+<?php
 /**
  * PHP 5
  *

@@ -67,7 +67,7 @@
 	<script src="/js/jquery-ui/js/jquery-ui-1.10.3.custom.js"></script>
 	-->
 	<script src="/js/clicks.js"></script>
-	<script src="/js/nav.js"></script>
+	<script src="<?php echo ADRESSE_SITE; ?>/js/nav.js"></script>
 	
 	 <!--endroit du mixpanel-->
 	

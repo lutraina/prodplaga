@@ -60,25 +60,25 @@
  */
 class DATABASE_CONFIG {
 
-	public $default = array(
+	public $default2 = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'nocam569_root',
-		'password' => 'root@nocambui',
+		'login' => 'nocam569_plaga',
+		'password' => '28041205Lu',
 		'database' => 'nocam569_plaga',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
 
 
-	public $test = array(
+	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
+		'login' => 'root',
+		'password' => 'root',
+		'database' => 'plaga',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

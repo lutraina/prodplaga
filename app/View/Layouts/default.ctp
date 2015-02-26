@@ -1,10 +1,14 @@
-<?php define('ADRESSE_SITE', '../../'); ?>
+<?php if($_SERVER['SERVER_ADDR'] == '::1') define('ADRESSE_SITE', '');
+else define('ADRESSE_SITE', '../../'); 
+header('Content-Type: text/html; charset=utf-8');
+?>
 
 <!doctype html>
 	<html>
 	<head>
 	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	    <title>Plaga</title>
 	    <link rel="shortcut icon" href="<?php echo ADRESSE_SITE; ?>/img/favicon.png" type="image/x-icon" />
 	    <link rel="stylesheet" href="<?php echo ADRESSE_SITE; ?>/css/gumby.css">
@@ -17,7 +21,8 @@
 		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 
 			
-		<script src="/js/jquery-2.0.2.js"></script>
+		<script src="<?php echo ADRESSE_SITE; ?>/js/jquery-2.0.2.js"></script>
+		
 		<!--script api facebook-->
 	    <div id="fb-root"></div>
 		<!--<script>(function(d, s, id) {
@@ -41,32 +46,32 @@
 		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 		  })();
 		</script>
-	<script src="/js/libs/modernizr-2.6.2.min.js"></script>
-	<script src="/js/libs/gumby.min.js"></script>
-	<script src="/js/slides.min.jquery.js"></script>
-	<script src="/js/jquery-2.0.2.js"></script>
+	<script src="<?php echo ADRESSE_SITE; ?>/js/libs/modernizr-2.6.2.min.js"></script>
+	<script src="<?php echo ADRESSE_SITE; ?>/js/libs/gumby.min.js"></script>
+	<script src="<?php echo ADRESSE_SITE; ?>/js/slides.min.jquery.js"></script>
+	<script src="<?php echo ADRESSE_SITE; ?>/js/jquery-2.0.2.js"></script>
 	
 	<!-- <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>-->
-	<script src="/js/jcarousellite.js"></script>
-	<script src="/js/jquery.form.min.js"></script>
+	<script src="<?php echo ADRESSE_SITE; ?>/js/jcarousellite.js"></script>
+	<script src="<?php echo ADRESSE_SITE; ?>/js/jquery.form.min.js"></script>
 	<!-- PAGINAÇÃO -->
-	  <script type="text/javascript" src="/jPages/js/highlight.pack.js"></script>
-	  <script type="text/javascript" src="/jPages/js/tabifier.js"></script>
-	  <script src="/jPages/js/js.js"></script>
-	  <script src="/jPages/js/jPages.js"></script>
+	  <script type="text/javascript" src="<?php echo ADRESSE_SITE; ?>/jPages/js/highlight.pack.js"></script>
+	  <script type="text/javascript" src="<?php echo ADRESSE_SITE; ?>/jPages/js/tabifier.js"></script>
+	  <script src="<?php echo ADRESSE_SITE; ?>/jPages/js/js.js"></script>
+	  <script src="<?php echo ADRESSE_SITE; ?>/jPages/js/jPages.js"></script>
 	<!--script da galeria da home-->		
 	
 	<!--script table-->
-	<link rel="stylesheet" href="/DataTables/media/css/jquery.dataTables.css">
-	<link rel="stylesheet" href="/DataTables/media/css/jquery.dataTables_themeroller.css">
-	<script src="/DataTables/media/js/jquery.dataTables.min.js"></script>
+	<link rel="stylesheet" href="<?php echo ADRESSE_SITE; ?>/DataTables/media/css/jquery.dataTables.css">
+	<link rel="stylesheet" href="<?php echo ADRESSE_SITE; ?>/DataTables/media/css/jquery.dataTables_themeroller.css">
+	<script src="<?php echo ADRESSE_SITE; ?>/DataTables/media/js/jquery.dataTables.min.js"></script>
 	<!--script jquery ui-->
-	<script src="/js/jquery-ui/js/jquery-ui-1.10.3.custom.js"></script>
+	<script src="<?php echo ADRESSE_SITE; ?>/js/jquery-ui/js/jquery-ui-1.10.3.custom.js"></script>
 	<!--
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
 	<script src="/js/jquery-ui/js/jquery-ui-1.10.3.custom.js"></script>
 	-->
-	<script src="/js/clicks.js"></script>
+	<script src="<?php echo ADRESSE_SITE; ?>/js/clicks.js"></script>
 	<script src="<?php echo ADRESSE_SITE; ?>/js/nav.js"></script>
 	
 	 <!--endroit du mixpanel-->
@@ -373,7 +378,7 @@
 	});
 	
 </script>
-<script type="text/javascript" src="/js/county.js"></script>
+<script type="text/javascript" src="<?php echo ADRESSE_SITE; ?>/js/county.js"></script>
 <?php $data = isset($vantagens['Advantage']['date_end']) ? date('Y/m/d H:i:s', strtotime($vantagens['Advantage']['date_end'])) : ''  ?>
 <script type="text/javascript">
     $(document).ready(function () {
@@ -402,13 +407,13 @@
 
 
 <!--personalização dos selects-->
-<link rel="stylesheet" href="/js/custom-select/jquery.customselect.css">
-<script type="text/javascript" src="/js/custom-select/jquery.customselect.js"></script>
+<link rel="stylesheet" href="<?php echo ADRESSE_SITE; ?>/js/custom-select/jquery.customselect.css">
+<script type="text/javascript" src="<?php echo ADRESSE_SITE; ?>/js/custom-select/jquery.customselect.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('.customselect').customselect();
 		//slider
-    	$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
+    	//$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);////revoir!!!!
       
 	});  
 </script>
@@ -416,8 +421,8 @@
 
 
 <!--jquery colorbox - usando nas galerias dos posts(modal)-->
-<link rel="stylesheet" href="/js/jquery-colorbox/example1/colorbox.css">
-<script type="text/javascript" src="/js/jquery-colorbox/jquery.colorbox.js"></script>
+<link rel="stylesheet" href="<?php echo ADRESSE_SITE; ?>/js/jquery-colorbox/example1/colorbox.css">
+<script type="text/javascript" src="<?php echo ADRESSE_SITE; ?>/js/jquery-colorbox/jquery.colorbox.js"></script>
 
 <script>
 	$(document).ready(function(){
@@ -487,4 +492,4 @@ window.mapa_ouvert = false;
 			  
 </script>-->
 <!--slides-->
-<script type="text/javascript" src="/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="<?php echo ADRESSE_SITE; ?>/js/slides.min.jquery.js"></script>

@@ -1,12 +1,12 @@
 <!-- BANNER TOPO  => banner como o da clinica Shalon que tem 728 x 90 -->
 
 
-<div class="row sub-header2" style="height:90px;">
+<div class="row sub-header2" style="height:90px; margin-left:20px;">
 	<div class=" columns">
 		<a href="/"><img  style="width:125px; height:48px;" class="logo" src="/img/logo_plaga.png" /></a>
 	</div>
 	
-	<div style="color:#fff; font-size:26px; font-weight: bold; width:180; margin-left:194px; margin-top:10px;">
+	<div style="color:#fff; font-size:26px; font-weight: bold; width:180; margin-left:174px; margin-top:10px;">
 		<?php echo $regiao[0]['Regions']['nome_regiao']; ?>
 	</div>
 <form action="/search" method="GET">

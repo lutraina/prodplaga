@@ -1,0 +1,126 @@
+
+.container_slider {
+    float: left;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 575px;
+}
+#main {
+    background: none repeat scroll 0 0 #fff;
+    padding: 10px;
+}
+a {
+    color: #fff;
+}
+.main_image {
+    background: none repeat scroll 0 0 #333;
+    color: #fff;
+    float: left;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    width: 400px;
+}
+.main_image h2 {
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+.main_image p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 10px;
+}
+.block small {
+    background: url("images/icon_cal.gif") no-repeat scroll 0 center rgba(0, 0, 0, 0);
+    font-size: 1em;
+    padding: 0 0 0 20px;
+    margin-top: -5px;
+}
+.main_image .block small {
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.main_image .desc {
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.main_image .block {
+    background: none repeat scroll 0 0 #111;
+    border-top: 1px solid #000;
+    width: 100%;
+}
+.main_image a.collapse {
+    background: url("images/btn_coll.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 27px;
+    position: absolute;
+    right: 20px;
+    text-indent: -99999px;
+    top: -27px;
+    width: 93px;
+}
+.main_image a.show {
+    background-position: left bottom;
+}
+.image_thumb {
+    background: none repeat scroll 0 0 #ccc;
+    float: left;
+    width: 170px;
+    margin-top: -4px;
+}
+.image_thumb img {
+    background: none repeat scroll 0 0 orange;
+    color: white;
+    float: left;
+    margin-left: -5px;
+}
+.image_thumb ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.image_thumb ul li {
+    background: url("images/nav_a.gif") repeat-x scroll 0 0 #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    float: left;
+    height: 54px;
+    padding: 5px 10px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+.image_thumb .title {
+    float: left;
+    background-color: orange;
+    padding: 2px;
+    width: 150px;
+}
+.image_thumb ul li.hover {
+    background: none repeat scroll 0 0 #ddd;
+    cursor: pointer;
+}
+.image_thumb ul li.active {
+    background: none repeat scroll 0 0 #fff;
+    cursor: default;
+}
+html .image_thumb ul li h2 {
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 0;
+    width: 150px;
+}
+.image_thumb ul li .block {
+    float: left;
+    padding: 0;
+    width: 150px;
+    margin-top: -5px;
+}
+.image_thumb ul li p {
+    display: none;
+}

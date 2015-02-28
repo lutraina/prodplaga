@@ -11,7 +11,7 @@
 	</div>
 <form action="/search" method="GET">
 	<div style="color:#444; font-size:14px; font-weight: bold; margin-left:380px; margin-top:-48px;">
-		<input style="width:250px;" class="input input-radius input-pesquisa" type="text" name="por" value="<?= isset($_GET['por']) ? $_GET['por']: ''?>" placeholder="O que você procura?" />
+		<input style="width:240px;" class="input input-radius input-pesquisa" type="text" name="por" value="<?= isset($_GET['por']) ? $_GET['por']: ''?>" placeholder="O que você procura?" />
 	</div>
 	<div class="" style="margin-top:-20px;">
 		<button class="button button-radius button-pesquisa">..</button>

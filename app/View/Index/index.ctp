@@ -1,6 +1,11 @@
 <?php //echo $regiao[0]['Regions']['nome_regiao']; //debug($slides); ?>
 <script language="javascript">
-	$(document).ready(function(){
+	//$(document).ready(function(){
+		
+/*jQuery( document ).ready(function( luci ) {
+	luci.noConflict();
+	luci('.pgwSlider').pgwSlider();
+	*/	//$('.pgwSlider').pgwSlider();
 	    /*
 	     * Mostra popup dhtml
 	     */
@@ -43,6 +48,74 @@
 </script>
 
 
+
+
+<!--noticias da home + google banner-->
+	
+<div class="row noticias_cadre">
+	<div style="width:100%;   background-color:#fff; float:left; margin-bottom:30px; padding-top:20px; padding-bottom:20px; padding-left:5px;">
+		
+		
+		<div>
+			<img style="padding:0;" class="" src="/img/noticias_titulo_quadro.jpg" alt=""/>
+		</div><br />
+		
+		
+		<div id="main" class="container_slider" style="margin-bottom:50px;">
+
+	<div class="main_image">
+		<img src="<?= $_URL_FILE ?>news/fotos/318x177-<?= $newshome[0]['News']['image'] ?>" alt="- banner1" />
+		<div class="desc">
+			<a href="#" class="collapse">Close Me!</a>
+			<div class="block">
+				<h2><?= $_URL_FILE ?>news/fotos/318x177-<?= $newshome[0]['News']['title'] ?></h2>
+				<small>08/27/2013</small>
+				
+				<p><?= $newshome[0]['News']['subtitle'] ?><br /><a href="http://dribbble.com/shots/1212598-Luigi-s-Mansion" target="_blank">Artwork By Glenn Jones</a> </p>
+			</div>
+		</div>
+	</div>
+	<div class="image_thumb" style="height:0px;">
+		<ul>
+
+	<?php $i = 0; foreach($newshome as $key=>$newhome){ ;
+						if($i < 4){?>
+
+			<li><span  class="title" ><?= $newshome[$i]['Category']['name'] ?></span>
+				<a href="<?= $_URL_FILE ?>news/fotos/318x177-<?= $newshome[$i]['News']['image'] ?>"></a>
+				<div class="block">
+					<h2><?= $newshome[$i]['News']['title'] ?></h2>
+					 
+					
+					<p><?= $newshome[$i]['News']['subtitle'] ?><br /><a href="http://dribbble.com/shots/1212598-Luigi-s-Mansion" target="_blank">Artwork by Scott Balmer</a> </p>
+				</div>
+			</li>
+			
+			<? $i++; } } $i=0;?>
+		</ul>
+	</div>
+</div>	 
+
+		<div style="float:left; width:31%; padding-top: 40px; background-color: #fff;">
+			<!--google banner-->
+			<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+				<!-- Anuncio Cambui 300 250 gastronomia -->
+				<!--<ins class="adsbygoogle"
+				     style="display:inline-block;width:300px;height:250px"
+				     data-ad-client="ca-pub-4475543678910973"
+				     data-ad-slot="9710819406"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>-->
+		</div>	<!--end cadre google banner-->
+		
+	</div>
+</div><!--end cadre blanc noticias + google banner-->
+
+
+<br />
+
+ 
 
 <!--noticias da home + google banner-->
 	
@@ -289,9 +362,9 @@
 									<a href="/estabelecimentos/ver/<?= $gastronomiahome['Business']['url']?>">
 										
 										<?php if($gastronomiahome['Business']['image'] != ''){ ?>
-											<img class="img-border border" src="<?= $_URL_FILE ?>businesses/fotos/318x177-<?= $gastronomiahome['Business']['image'] ?>" style="height: 105px; width:156px;"/>
+											<img class="img-border border" src="<?= $_URL_FILE ?>businesses/fotos/318x177-<?= $gastronomiahome['Business']['image'] ?>" style=""/>
 										<?php } else { ?>
-											<img class="img-border border" src="../../img/sem_logo.png" style="height: 105px; width:105px;"/>
+											<img class="img-border border" src="../../img/sem_logo.png" style="height: 191px; width:107px;"/>
 										<?php }?>	
 									</a>
 								</div>
@@ -351,9 +424,9 @@
 							<div class="four columns">
 								<div class="row">
 									<?php if($gastronomiahome['Business']['image'] != ''){ ?>
-											<img class="img-border border" src="<?= $_URL_FILE ?>businesses/fotos/318x177-<?= $gastronomiahome['Business']['image'] ?>" style="height: 105px; width:156px;"/>
+											<img class="img-border border" src="<?= $_URL_FILE ?>businesses/fotos/318x177-<?= $gastronomiahome['Business']['image'] ?>" style=""/>
 										<?php } else { ?>
-											<img class="img-border border" src="../../img/sem_logo.png" style="height: 105px; width:105px;"/>
+											<img class="img-border border" src="../../img/sem_logo.png" style="height:107px; width:191px;"/>
 										<?php }?>
 								</div>
 								<div class="row">
@@ -412,9 +485,9 @@
 							<div class="four columns">
 								<div class="row">
 									<?php if($gastronomiahome['Business']['image'] != ''){ ?>
-											<img class="img-border border" src="<?= $_URL_FILE ?>businesses/fotos/318x177-<?= $gastronomiahome['Business']['image'] ?>" style="height: 105px; width:156px;"/>
+											<img class="img-border border" src="<?= $_URL_FILE ?>businesses/fotos/318x177-<?= $gastronomiahome['Business']['image'] ?>" style=""/>
 										<?php } else { ?>
-											<img class="img-border border" src="../../img/sem_logo.png" style="height: 105px; width:105px;"/>
+											<img class="img-border border" src="../../img/sem_logo.png" style="height: 107px; width:191px;"/>
 										<?php }?>
 								</div>
 								<div class="row">
@@ -461,7 +534,7 @@
   <?php echo $regiao[0]['Regions']['nome_regiao']; ?>  </div>
   <div class="bloco-3">
 			
-			<div class=" columns posts" style="margin-top:0px;">
+			<div class=" columns posts" style="margin-top:0px; margin-left:5px;">
 			<div class="row">
 				<!--titulo gastronomia-->
 			</div>
@@ -474,9 +547,9 @@
 							<div class="four columns">
 								<div class="row">
 									<?php if($gastronomiahome['Business']['image'] != ''){ ?>
-											<img class="img-border border" src="<?= $_URL_FILE ?>businesses/fotos/318x177-<?= $gastronomiahome['Business']['image'] ?>" style="height: 105px; width:156px;"/>
+											<img class="img-border border" src="<?= $_URL_FILE ?>businesses/fotos/318x177-<?= $gastronomiahome['Business']['image'] ?>" style=""/>
 										<?php } else { ?>
-											<img class="img-border border" src="../../img/sem_logo.png" style="height: 105px; width:105px;"/>
+											<img class="img-border border" src="../../img/sem_logo.png" style="height: 107px; width:191px;"/>
 										<?php }?>
 								</div>
 								<div class="row">
@@ -677,4 +750,84 @@
 	    btnPrev: ".prev",
 	    start: <?= $montaCalendario['currentView'] + 2; ?>,
 	});
+</script>
+
+
+
+<script type="text/javascript">
+var intervalId;
+var slidetime = 5000; // milliseconds between automatic transitions
+
+$(document).ready(function() {	
+
+  // Comment out this line to disable auto-play
+	intervalID = setInterval(cycleImage, slidetime);
+
+	$(".main_image .desc").show(); // Show Banner
+	$(".main_image .block").animate({ opacity: 0.85 }, 1 ); // Set Opacity
+
+	// Click and Hover events for thumbnail list
+	$(".image_thumb ul li:first").addClass('active'); 
+	$(".image_thumb ul li").click(function(){ 
+		// Set Variables
+		var imgAlt = $(this).find('img').attr("alt"); //  Get Alt Tag of Image
+		var imgTitle = $(this).find('a').attr("href"); // Get Main Image URL
+		var imgDesc = $(this).find('.block').html(); 	//  Get HTML of block
+		var imgDescHeight = $(".main_image").find('.block').height();	// Calculate height of block	
+		
+		if ($(this).is(".active")) {  // If it's already active, then...
+			return false; // Don't click through
+		} else {
+			// Animate the Teaser				
+			$(".main_image .block").animate({ opacity: 0, marginBottom: -imgDescHeight }, 250 , function() {
+				$(".main_image .block").html(imgDesc).animate({ opacity: 0.85,	marginBottom: "0" }, 250 );
+				$(".main_image img").attr({ src: imgTitle , alt: imgAlt});
+			});
+		}
+		
+		$(".image_thumb ul li").removeClass('active'); // Remove class of 'active' on all lists
+		$(this).addClass('active');  // add class of 'active' on this list only
+		return false;
+		
+	}) .hover(function(){
+		$(this).addClass('hover');
+		}, function() {
+		$(this).removeClass('hover');
+	});
+			
+	// Toggle Teaser
+	$("a.collapse").click(function(){
+		$(".main_image .block").slideToggle();
+		$("a.collapse").toggleClass("show");
+	});
+	
+	// Function to autoplay cycling of images
+	// Source: http://stackoverflow.com/a/9259171/477958
+	function cycleImage(){
+    var onLastLi = $(".image_thumb ul li:last").hasClass("active");       
+    var currentImage = $(".image_thumb ul li.active");
+    
+    
+    if(onLastLi){
+      var nextImage = $(".image_thumb ul li:first");
+    } else {
+      var nextImage = $(".image_thumb ul li.active").next();
+    }
+    
+    $(currentImage).removeClass("active");
+    $(nextImage).addClass("active");
+    
+		// Duplicate code for animation
+		var imgAlt = $(nextImage).find('img').attr("alt");
+		var imgTitle = $(nextImage).find('a').attr("href");
+		var imgDesc = $(nextImage).find('.block').html();
+		var imgDescHeight = $(".main_image").find('.block').height();
+					
+		$(".main_image .block").animate({ opacity: 0, marginBottom: -imgDescHeight }, 250 , function() {
+      $(".main_image .block").html(imgDesc).animate({ opacity: 0.85,	marginBottom: "0" }, 250 );
+      $(".main_image img").attr({ src: imgTitle , alt: imgAlt});
+		});
+  };
+	
+});// Close Function
 </script>

@@ -29,9 +29,9 @@
 
 
 <div class="nav-total">
-	<a href="/"><img class="logo-nav" style="margin-top:40px; margin-left:10px;" src="/img/logo_plaga.png"/></a>
+	<a href="/"><img class="logo-nav" style="margin-top: -20px; padding: 10px; margin-left: 10px; display: inline;" src="/img/logo_plaga.png"/></a>
 	<nav>
-		<ul class="nav-principal" style="width:1024px; background-color:#fff; height:40px;">
+		<ul class="nav-principal" style="width:1024px; margin-top:0px;">
 			<li class="menu_agenda">
 				<a class="nav-principal-item reg" href="/agenda">agenda</a>
 				<ul class="sub-nav-principal">

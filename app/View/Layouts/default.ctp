@@ -17,11 +17,14 @@ header('Content-Type: text/html; charset=utf-8');
 	    <link rel="stylesheet" href="<?php echo ADRESSE_SITE; ?>/css/global.css"> 
 		<link rel="stylesheet" href="<?php echo ADRESSE_SITE; ?>/css/categorias.css"> 
 		<link rel="stylesheet" href="<?php echo ADRESSE_SITE; ?>/css/county.css">
+		 
+		<link rel="stylesheet" href="<?php echo ADRESSE_SITE; ?>/css/slider.css">
 
 		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 
 			
 		<script src="<?php echo ADRESSE_SITE; ?>/js/jquery-2.0.2.js"></script>
+		 
 		
 		<!--script api facebook-->
 	    <div id="fb-root"></div>
@@ -414,12 +417,11 @@ header('Content-Type: text/html; charset=utf-8');
 		$('.customselect').customselect();
 		//slider
     	//$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);////revoir!!!!
+    	 
       
 	});  
 </script>
-
-
-
+ 
 <!--jquery colorbox - usando nas galerias dos posts(modal)-->
 <link rel="stylesheet" href="<?php echo ADRESSE_SITE; ?>/js/jquery-colorbox/example1/colorbox.css">
 <script type="text/javascript" src="<?php echo ADRESSE_SITE; ?>/js/jquery-colorbox/jquery.colorbox.js"></script>

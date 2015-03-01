@@ -105,8 +105,9 @@ class AppController extends Controller {
 		$this->set("newsNavs", $this->_getNews());
 		//debug($this->_getAgendaHome());
 		
-
 		
+		$regiao_geral = $this->request['pass'][0];
+		//$this->set('regiao_geral', $regiao_geral);
 		/*
 		 * Bloco vantagens no menu e na home
 		 * */
@@ -127,6 +128,10 @@ class AppController extends Controller {
 		$this->loadModel('Periodo');
 		$this->set("businessNavs", $this->_getEstabeleciomento());
 	 	$this->set("specialtys", $this->_getFiltro('specialty','gastronomia'));
+		
+		//busca_categorias
+		$this->set("busca_categorias", $this->_getFiltroBusca('specialty','gastronomia'));
+		
 		$this->set("open_untils", $this->_getFiltro('open_until','gastronomia'));
 		//$this->set("regions", $this->_getFiltro('region','gastronomia'));
 		$periodos = $this->Periodo->find('all', array('order'=>array('Periodo.periodo'=>'ASC')));
@@ -303,6 +308,8 @@ class AppController extends Controller {
 		
 	}
 	/*
+	 * 
+	 * 
 	 * business
 	 * gastronomia
 	 * */
@@ -311,6 +318,18 @@ class AppController extends Controller {
 			return $filtro;
 			
 		}
+	
+	/*
+	 * business
+	 * 
+	 * */
+	public function _getFiltroBusca($name = null, $cat=null){
+			$filtro = $this->Business->Category->find('list',array('order'=>array('Category.name'=>'ASC')));
+			//debug($filtro);
+			return $filtro;
+			
+		}
+	
 	/*
 	 * business
 	 * gastronomia

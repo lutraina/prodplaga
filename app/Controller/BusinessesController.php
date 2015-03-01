@@ -165,6 +165,9 @@
 		 * Gastronomia
 		 * */
 		public function gastronomia($url=null){
+			
+			debug('entrou na gastronomia funcion');
+			
 						//query com os eventos, caso tenha algum filtro de categoria mostra só os da categoria caso não mostra todos
 			if($url != null){				
 				$categoryId =  $this->Business->Category->find('first',array('conditions'=>array('Category.url'=>$url)));
@@ -205,9 +208,23 @@
 			$this->set('b_h_interno', $this->_getBanners('b_h_interno', 1, 'gastronomia', 'first'));
 		}	
 
-		
-		public function estabelecimentoFiltro($letra = null,$type = null,$idCategoria=null){
+		/**
+		 * Funcao que permite fazer a pesquisa dos resultados da categoria escolhida nos selects de
+		 * pesquisa de estabelecimentos à esqueda da pag. da home
+		 * 
+		 */
+		 
+		public function estabelecimentoFiltro($regiao = null, $letra = null, $type = null, $idCategoria=null){
 			$this->layout = 'ajax';
+			debug('<br/>');
+			debug('<br/>');
+			debug('<br/>');
+			debug('<br/>');
+			debug('<br/>');
+			debug('id_categoria :' .$idCategoria);
+			debug('tipo : '. $type);
+			debug('letra : '. $letra);
+			debug('regiao : '. $regiao);
 			
 			if($idCategoria != 0){
 				$conditions = array('Business.categories_id'=>$idCategoria);
@@ -215,13 +232,40 @@
 				$conditions = array();
 			}
 				
-			if($letra=='null' && $type=='gastronomia'){
+				
+				
+				 
+				debug('especialidade : '.@$_GET['especialidade']);	
+				
+				$this->loadModel('Regions');
+				
+				$regiao_id = $this->Regions->find('first', array(
+					'fields'=>array('Regions.id'),
+					'conditions'=> array('Regions.nome_sistema'=>$regiao)
+				));
+					debug($regiao_id['Regions']['id']);
+				$estabelecimentos = $this->Business->find('all', array('conditions'=>
+					array(
+						'Business.specialty LIKE'=>'%'.@$_GET['especialidade'].'%',
+						'Business.regions_id'=>$regiao_id['Regions']['id']
+						//'Business.specialty LIKE'=>'%'.@$_GET['especialidade'].'%',
+						//'Business.open_until LIKE'=>'%'.@$_GET['tipo'].'%',
+						//'Business.region LIKE'=>'%'.@$_GET['periodo'].'%',
+						//$conditions,
+						//'Business.type'=>$type,
+						
+						),'order'=>array('Business.gratuito'=>'ASC','RAND()')));
+					$this->set('estabelecimentos', $estabelecimentos);
+					$this->set("filtrandoPor", @$_GET['especialidade']." | ".@$_GET['tipo']." | ".@$_GET['periodo']);
+					
+			/*if($letra=='null' && $type=='gastronomia'){
 									
 				$estabelecimentos = $this->Business->find('all',array('conditions'=>
 					array(
 						'Business.specialty LIKE'=>'%'.@$_GET['especialidade'].'%',
-						'Business.open_until LIKE'=>'%'.@$_GET['aberto_ate'].'%',
-						'Business.region LIKE'=>'%'.@$_GET['regiao'].'%',
+						//'Business.specialty LIKE'=>'%'.@$_GET['especialidade'].'%',
+						//'Business.open_until LIKE'=>'%'.@$_GET['aberto_ate'].'%',
+						//'Business.region LIKE'=>'%'.@$_GET['regiao'].'%',
 						$conditions,
 						'Business.type'=>$type,
 						
@@ -256,7 +300,7 @@
 				$estabelecimentos = $this->Business->find('all',array('conditions'=>array('Business.type'=>$type,$conditions, 'Business.name LIKE'=>$letra.'%'),'order'=>array('Business.gratuito'=>'ASC','RAND()')));
 				$this->set('estabelecimentos', $estabelecimentos);	
 			}
-			
+			*/
 			
 			
 			if(count($estabelecimentos) == 0){
@@ -283,12 +327,14 @@
 	public function estabelecimentos($type=null, $url=null){
 		
 		//query com os eventos, caso tenha algum filtro de categoria mostra só os da categoria caso não mostra todos
-
-		if($url != null){				
+		debug($url);
+		if($url != null){
+			debug('$url != null');				
 			$categoryId =  $this->Business->Category->find('first',array('conditions'=>array('Category.url'=>$url)));
 			$conditions = array('Business.categories_id'=>$categoryId['Category']['id']);
 			$this->set("categoriaGeral", $categoryId);
 		}else{
+			debug('$url == null');
 			$conditions =array('Business.type'=>$type);
 			$this->set("categoriaGeral", array('Category'=>array('name'=>'Bem Estar','id'=>null)));
 		}

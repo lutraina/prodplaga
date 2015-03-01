@@ -4849,6 +4849,10 @@ padding:10px;
 .estabelecimentos_liste{
 	width:100%; height:1230px; margin-top:50px; background: #fff url('../img/gastronomia_fundo.jpg') no-repeat !important;
 }
+.estabelecimentos_liste_resultado{
+	width:100%; height:1230px; margin-top:50px; 
+	background: #fff url('../img/resultado-busca.jpg') no-repeat !important;
+}
 
 .relative current{
 	background-image:none;

@@ -22,12 +22,15 @@
 <div class="row listagem-posts mt20 ">
 	<ul class="" id="itemContainerGastronomia">
 		<?php foreach($estabelecimentos as $estabelecimento): ?>
-			<?php if($estabelecimento['Business']['gratuito']=='nao'): ?>
+			<?php 
+			//anulei esse filtro pois nao sabia o queria dizer com esse gratuito ou nao
+			//todos os estab. a partir de agora podem ser clicados no resultado de busca
+			//if($estabelecimento['Business']['gratuito']=='nao'): ?>
 	
 				<li>
 					<div class="row">
 						<div class="ten columns">
-							<span class="row titulo"><a class="color" href="/estabelecimentos/ver/<?= $estabelecimento['Business']['url']?>"><?= $estabelecimento['Business']['name']?></a><span class=" descricao f-right"><b>(<?= $estabelecimento['Business']['view']?>) views</b></span></span>
+							<span class="row titulo"><a class="" href="/estabelecimentos/ver/<?= $estabelecimento['Business']['url']?>"><?= $estabelecimento['Business']['name']?></a><span class=" descricao f-right"><b>(<?= $estabelecimento['Business']['view']?>) views</b></span></span>
 							<span class="row local"><a href="/estabelecimentos/<?= $estabelecimento['Business']['type']?>/<?= $estabelecimento['Category']['url']?>"><?= $estabelecimento['Category']['name']?></a></span>
 							<div class="row mt5">
 								<span class="row endereco"><a href="/estabelecimentos/ver/<?= $estabelecimento['Business']['url']?>"><?= $estabelecimento['Business']['address']?></a></span>
@@ -44,10 +47,10 @@
 					</div>
 					
 				</li>				
-			<?php else: ?>
+			<?php //else: ?>
 			
 			
-			<li>
+			<!--<li>
 				<div class="row">
 					<div class="ten columns">
 						<span class="row titulo"><b><?= $estabelecimento['Business']['name']?></b></span>
@@ -62,8 +65,9 @@
 					<span class="row descricao"><?= $estabelecimento['Business']['business_hours']?></span>
 					<span class="row descricao">Telefone(s): <b><?= $estabelecimento['Business']['phone']?></b></span>
 				</div>
-			</li>
-			<?php endif; ?>
+			</li>-->
+			<?php //endif; ?>
+
 		<?php endforeach; ?>
 	</ul>
 </div>

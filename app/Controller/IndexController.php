@@ -36,6 +36,9 @@
 			$this->loadModel('Banner');
 			
 			//debug($regiao);
+			$regiao_geral = $this->request['pass'][0];
+			//debug($regiao_geral);
+			$this->set('regiao_geral', $regiao_geral); 
 			$this->set('regiao', $regiao); 
 			
 			

@@ -139,7 +139,7 @@ else define('ADRESSE_SITE', '../../');
 		<div class="container">
 			<div class="sub-container">
 				<?php if(isset($regiao)){ ?>
-				<div class="header" style="height:300px;">
+				<div class="header" style="height:150px;">
 					<div class="row">
 						<!--Header : topo.ctp-->
 						

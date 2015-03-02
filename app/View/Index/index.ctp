@@ -48,19 +48,202 @@
 </script>
 
 
-<!-- banner google -->
+<div style="width:729px; margin-bottom:30px;">
+	<!--<img style="width:100%" class="banner1" src="/img/banner1.jpg" />-->
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<ins class="adsbygoogle"
+		     style="display:inline-block;width:729px;height:89px"
+		     data-ad-client="ca-pub-4475543678910973"
+		     data-ad-slot="9710819406"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
 
-<!-- noticias -->
+<!--noticias da home + google banner-->
+	
+<div class="row noticias_cadre">
+	<div style="width:100%;   background-color:#fff; float:left; margin-bottom:30px; padding-top:20px; padding-bottom:20px; padding-left:5px;">
+		
+		
+		<div>
+			<img style="padding:0;" class="" src="/img/noticias_titulo_quadro.jpg" alt=""/>
+		</div><br />
+		
+		
+		<div id="main" class="container_slider" style="margin-bottom:50px;">
+
+	<div class="main_image">
+		<img src="<?= $_URL_FILE ?>news/fotos/318x177-<?= $newshome[0]['News']['image'] ?>" alt="- banner1" />
+		<div class="desc">
+			<a href="#" class="collapse">Close Me!</a>
+			<div class="block">
+				<h2><?= $newshome[0]['News']['title'] ?></h2>
+				 
+				
+				<p><?= $newshome[0]['News']['subtitle'] ?><br /><a href="http://dribbble.com/shots/1212598-Luigi-s-Mansion" target="_blank">Artwork By Glenn Jones</a> </p>
+			</div>
+		</div>
+	</div>
+	<div class="image_thumb" style="height:0px;">
+		<ul>
+
+	<?php $i = 0; foreach($newshome as $key=>$newhome){ ;
+						if($i < 4){?>
+
+			<li><span  class="title" ><?= $newshome[$i]['Category']['name'] ?></span>
+				<a href="<?= $_URL_FILE ?>news/fotos/318x177-<?= $newshome[$i]['News']['image'] ?>"></a>
+				<div class="block">
+					<h2><?= $newshome[$i]['News']['title'] ?></h2>
+					 
+					
+					<p><?= $newshome[$i]['News']['subtitle'] ?><br /><a href="http://dribbble.com/shots/1212598-Luigi-s-Mansion" target="_blank">Artwork by Scott Balmer</a> </p>
+				</div>
+			</li>
+			
+			<? $i++; } } $i=0;?>
+		</ul>
+	</div>
+</div>	 
+
+		<div style="float:left; width:31%; padding-top: 40px; background-color: #fff;">
+			<!--google banner-->
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Anuncio Cambui 300 250 gastronomia -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:300px;height:250px"
+				     data-ad-client="ca-pub-4475543678910973"
+				     data-ad-slot="9710819406"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>	<!--end cadre google banner-->
+		
+	</div>
+</div><!--end cadre blanc noticias + google banner-->
 
  
 	
-<!-- banner google -->
+<div style="width:729px;">
+		<!--<img style="width:100%" class="banner1" src="/img/banner1.jpg" />-->
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+			     style="display:inline-block;width:729px;height:89px"
+			     data-ad-client="ca-pub-4475543678910973"
+			     data-ad-slot="9710819406"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+	</div>
 	
-<!-- fotos e vantagens -->
+<!--fotos et vantagens-------->
+<div class="row mt20 mb20 vantagens_fundo" style="">
+	<div class="galerias six columns">
+		<div class="bloco-8">
+			<div class="row">
+				<div class="row">
+					<!--icone e titulo fotos no cambui-->
+				</div>
+
+				<div id="slides10" style="margin-left:10px; margin-top:60px;">
+					<div class="slides_container">
+						
+						<?php foreach($galerias as $key =>$galeria): ?>
+							
+							<a href="/galeria/ver/<?= $galeria['Galeria']['id'] ?>" title="">
+								<img src="<?= $_URL_FILE; ?>galleries/fotos/640x480-<?= $galeria['File'][0]['name']?>" width="440" height="250"/>
+								<div class="box-post-destaque">
+									<div class="row">
+										<div class="post-destaque-categoria upper"><?= $galeria['Galeria']['titulo'] ?></div>
+										<div class="icon-destaque-categoria"></div>
+									</div>
+									<div class="row">
+										<div class="post-destaque-titulo">
+											<div class="three columns">
+												
+												<span class="icon-data"></span>
+												<div class="box-data">
+													<span class="texto-data1">data</span>
+													<span class="texto-data2"><?= $galeria['Galeria']['data'] ?></span>
+												</div>
+												
+											</div>
+											<div class="nine columns">
+												
+												<span class="icon-local"></span>
+												<div class="box-local">
+													<span class="texto-local1">Visualizações</span>
+													<span class="texto-local2"><?= $galeria['Galeria']['view'] ?></span>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						<?php endforeach; ?>						
+						
+					</div>
+					<div class="row mt10" style="z-index:999;">
+						<div class="nine columns">
+							<a class="link-ver-todas mt5" href="/galerias">Ver mais Fotos</a>
+						</div>
+						<div class="three columns">
+							<a href="#?" class="prev5"><center><img src="/img/prev.png" alt="Anterior"></center></a>
+							<a href="#?" class="next5"><center><img src="/img/next.png" alt="Próximo"></center></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 	
-	<!-- agenda-->
+<!--test agenda-->
+	<div class="agenda_cult" style="">
 	
-	<!-- agenda cultural -->
+	
+		<div class="">
+			<div class="bloco-9">
+				<div class="row mt20">
+					<div class="carousel" style="margin-top:21px; ">
+						<ul class="paginacao-programacao-home">
+							
+							<?php 
+								$montaCalendario = $this->Data->calendar(date("Y-m-d"),'all/0'); 
+								foreach($montaCalendario['dias'] as $dias){
+									?> <div style=""><?php echo $dias; ?> </div><?php
+								}
+							?>
+						</ul>
+						
+						<button class="next"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row" style="">
+			<div class="row">
+				<div class="">
+					<ul style="float:left; width:97%; background:#fff; padding:10px;">
+						<?php foreach($agendaHome as $agenda_items){ ?>
+							<li style="width:200px; padding:5px; height:100px;float:left; background:#ddd; margin-left:20px; margin-bottom:15px; ">
+								<?php echo $agenda_items['Category']['name']; ?>
+								<br/>
+								<?php echo $agenda_items['Schedule']['title']; ?>
+							</li>
+						<?php } ?>	
+					</ul>
+				</div>
+			</div>
+		</div>			
+								
+		
+					
+	</div>	
+	
+ 
 	
 	
 	<div class="four columns">

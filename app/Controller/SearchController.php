@@ -3,6 +3,9 @@
 		public $name = 'Search';
 		
 		public function index(){
+			$this->loadModel('Regions');
+		//	debug($_GET['regiao']); //para poder trabalhar com as regioes
+		//so precisa mandar uma variavel de regiao para o search com o nome_sistema da regiao
 			if(isset($_GET['por'])){
 				$termo = $_GET['por'];				
 				$this->set('termo',$termo);

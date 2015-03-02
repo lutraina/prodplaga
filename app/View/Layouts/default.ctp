@@ -1,6 +1,6 @@
 <?php if($_SERVER['SERVER_ADDR'] == '::1') define('ADRESSE_SITE', '');
 else define('ADRESSE_SITE', '../../'); 
-header('Content-Type: text/html; charset=utf-8');
+//header('Content-Type: text/html; charset=utf-8');
 ?>
 
 <!doctype html>
@@ -159,13 +159,12 @@ header('Content-Type: text/html; charset=utf-8');
 						<?php echo $this->fetch('content'); ?>
 					</div>
 				</div>
-				<div class="footer">
+				<div class="footer" style="width:100%; float:left; margin-bottom:30px; background: #ccc url('../../img/footer.jpg') no-repeat; background-position:-250px 0px;">
+					
 					<div class="row">
 						<?php echo $this->element('footer'); ?>
 					</div>
-					<div class="sub-footer">
-						<span class="sub-footer-texto">Copyright © 2015 . Plaga - Todos os direitos reservados.</span>
-					</div>
+					
 				</div>
 			</div>
 		</div>	

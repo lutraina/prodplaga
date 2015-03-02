@@ -1,6 +1,5 @@
 <!-- BANNER TOPO  => banner como o da clinica Shalon que tem 728 x 90 -->
 
-
 <div class="row sub-header2" style="height:90px; margin-left:20px;">
 	<div class=" columns">
 		<a href="/"><img  style="width:125px; height:48px;" class="logo" src="/img/logo_plaga.png" /></a>
@@ -11,7 +10,7 @@
 	</div>
 <form action="/search" method="GET">
 	<div style="color:#444; font-size:14px; font-weight: bold; margin-left:380px; margin-top:-48px;">
-		<input style="width:240px;" class="input input-radius input-pesquisa" type="text" name="por" value="<?= isset($_GET['por']) ? $_GET['por']: ''?>" placeholder="O que você procura?" />
+		<input style="width:240px; margin-left:80px;" class="input input-radius input-pesquisa" type="text" name="por" value="<?= isset($_GET['por']) ? $_GET['por']: ''?>" placeholder="O que você procura?" />
 	</div>
 	<div class="" style="margin-top:-20px;">
 		<button class="button button-radius button-pesquisa">..</button>
@@ -22,10 +21,10 @@
 	<div class="row box-login-top">
 			<?php if(isset($user)): ?>
 				<?php if($user == 0): ?>
-					<div class=" ">
+					<div class=" " style="margin-left:80px;">>
 						<a href="<?= $facebook_auth_url ?>" class="button-connecte"></a>
 					</div>
-					<div class="row">
+					<div class="row" style="margin-left:80px;">>
 						<span class="texto-login-top">ou clique aqui para cadastrar-se</span>
 						<div class="box-painel-do-usuario-top">
 							<div class="row">

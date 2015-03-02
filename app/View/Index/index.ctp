@@ -72,7 +72,7 @@
 		
 		</div>
 	
-	<div id="resultado_busca" class="estabelecimentos_liste" style="">
+	<div id="resultado_busca" class="estabelecimentos_liste">
 	
 	<!--bloco gastronomias-->
 	<div class="estabelecimentos_busca row mt20 mb20" style="margin-left:325px; padding:5px 2px; border:none; width:600px; height:280px;">
@@ -90,7 +90,7 @@
 			<div class="row">
 				<!--titulo gastronomia-->
 			</div>
-			<div class="filtroGeral2">
+			<div class="filtroGeral2" style="padding-top:20px; display:none;">
 				
 				
 			</div>	

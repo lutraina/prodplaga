@@ -34,6 +34,7 @@
 			$this->loadModel('Auto');
 			$this->loadModel('Imovei');
 			$this->loadModel('Banner');
+			$this->loadModel('Category');
 			
 			//debug($regiao);
 			$regiao_geral = $this->request['pass'][0];
@@ -53,6 +54,15 @@
 			
 			
 			$this->set('regiao', $regiao); 
+
+			//cat
+			$categorias = $this->Category->find('all',
+				array('order'=>array('Category.name'=>'ASC')));
+			$this->set('categorias', $categorias);
+			//debug($categorias);
+			
+			
+		 
 			 
 			$regiao = $this->Regions->find('all', array('conditions'=>array('Regions.nome_sistema'=>$regiao)));
 			$this->set('regiao', $regiao);

@@ -106,7 +106,7 @@ class AppController extends Controller {
 		//debug($this->_getAgendaHome());
 		
 		
-		$regiao_geral = $this->request['pass'][0];
+		//$regiao_geral = $this->request['pass'][0];
 		//$this->set('regiao_geral', $regiao_geral);
 		/*
 		 * Bloco vantagens no menu e na home

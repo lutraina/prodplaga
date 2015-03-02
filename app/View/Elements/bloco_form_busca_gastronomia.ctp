@@ -58,6 +58,7 @@
 		    	$('.titles_busca').html('');
 		    	$('.estabelecimentos_busca').css('height', '0px');
 				$('.filtroGeral').html('');
+				$('.filtroGeral2').css('display', 'block');
 		
 		    	},
 		        success: function(data) {

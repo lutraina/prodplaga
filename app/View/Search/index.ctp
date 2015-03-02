@@ -61,7 +61,7 @@
 
   });
   </script>
-
+<?php //debug($regiao_search); ?>
 <div class="pagina-resultado">
 	<div class="row mt20">
 		<div class="eight columns">

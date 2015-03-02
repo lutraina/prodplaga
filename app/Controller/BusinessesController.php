@@ -216,7 +216,7 @@
 		 
 		public function estabelecimentoFiltro($regiao = null, $letra = null, $type = null, $idCategoria=null){
 			$this->layout = 'ajax';
-			debug('<br/>');
+			/*debug('<br/>');
 			debug('<br/>');
 			debug('<br/>');
 			debug('<br/>');
@@ -225,7 +225,7 @@
 			debug('tipo : '. $type);
 			debug('letra : '. $letra);
 			debug('regiao : '. $regiao);
-			
+			*/
 			if($idCategoria != 0){
 				$conditions = array('Business.categories_id'=>$idCategoria);
 			}else{
@@ -235,26 +235,36 @@
 				
 				
 				 
-				debug('especialidade : '.@$_GET['especialidade']);	
+				//debug('especialidade : '.@$_GET['especialidade']);	
 				
 				$this->loadModel('Regions');
+				$this->loadModel('Category');
 				
-				$regiao_id = $this->Regions->find('first', array(
-					'fields'=>array('Regions.id'),
+				$categoria_id = $this->Category->find('first', array(
+					//'fields'=>array('Regions.id'),
+					'conditions'=> array('Category.name'=>$_GET['especialidade'])
+				));
+				//debug($categoria_id['Category']['id']);
+				
+				$regiao_infos = $this->Regions->find('first', array(
+					//'fields'=>array('Regions.id'),
 					'conditions'=> array('Regions.nome_sistema'=>$regiao)
 				));
-					debug($regiao_id['Regions']['id']);
+					//debug($regiao_infos['Regions']['id']);
 				$estabelecimentos = $this->Business->find('all', array('conditions'=>
 					array(
-						'Business.specialty LIKE'=>'%'.@$_GET['especialidade'].'%',
-						'Business.regions_id'=>$regiao_id['Regions']['id']
+					//	'Business.specialty LIKE'=>'%'.@$_GET['especialidade'].'%',
+						'Business.regions_id'=>$regiao_infos['Regions']['id'],
+						'Business.categories_id'=>$categoria_id['Category']['id']
 						//'Business.specialty LIKE'=>'%'.@$_GET['especialidade'].'%',
 						//'Business.open_until LIKE'=>'%'.@$_GET['tipo'].'%',
 						//'Business.region LIKE'=>'%'.@$_GET['periodo'].'%',
 						//$conditions,
 						//'Business.type'=>$type,
 						
-						),'order'=>array('Business.gratuito'=>'ASC','RAND()')));
+						),
+						'order'=>array('Business.name'=>'ASC')));
+						//'order'=>array('Business.gratuito'=>'ASC','RAND()')));
 					$this->set('estabelecimentos', $estabelecimentos);
 					$this->set("filtrandoPor", @$_GET['especialidade']." | ".@$_GET['tipo']." | ".@$_GET['periodo']);
 					
@@ -305,7 +315,11 @@
 			
 			if(count($estabelecimentos) == 0){
 				
-				echo '<br /> Não econtramos nenhum estabelecimento com esse filtro.';
+				echo '<div class="resultado_busca_negativo" style="font-size:1.5em;"><br />
+				<br />Não encontramos nenhum estabelecimento com esse filtro na região de : <br />'
+				.$regiao_infos['Regions']['nome_regiao'].
+				'</div>';
+				
 				$this->autoRender = false;
 			}
 			
